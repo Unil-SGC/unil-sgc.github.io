@@ -1,0 +1,37 @@
+<nav class="navigation">
+  <section class="container">
+
+    <a class="navigation-title" href="/">
+      <picture>
+        <source srcset="/assets/images/SGC_unilogo.png" media="(prefers-color-scheme: dark)" height="80">
+        <img src="/assets/images/SGC_unilogo_w.png" height="80">
+      </picture>
+      <!-- {{author_short}} -->
+      <!-- <img src="/assets/images/SGC_unilogo.png" alt="avatar" height="80"> -->
+    </a>
+
+    <input type="checkbox" id="menu-toggle">
+    <label class="menu-button float-right" for="menu-toggle">
+      <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+    </label>
+
+    <ul class="navigation-list">
+      {{for (title, link) in nav_items}}
+        <li class="navigation-item">
+          <a class="navigation-link" href="{{link}}">{{title}}</a>
+        </li>
+      {{end}}
+
+      <!-- International part -->
+      <!--
+      <li class="navigation-item menu-separator">
+        <span>|</span>
+      </li>
+      <li class="navigation-item">
+        <a href="https://hugo-coder.netlify.app/pt-br/">🇧🇷</a>
+      </li>
+      -->
+    </ul>
+
+  </section>
+</nav>
