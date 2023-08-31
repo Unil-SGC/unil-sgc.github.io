@@ -15,7 +15,7 @@ tw_card = "summary"
 tw_title = author_short
 tw_descr = meta_descr
 
-website_url = "https://Unil-SGC.github.io"
+website_url = "https://unil-sgc.github.io/"
 
 footer_notice = """
   © 2022 $author · Powered by
