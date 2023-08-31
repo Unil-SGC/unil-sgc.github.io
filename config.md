@@ -24,14 +24,14 @@ footer_notice = """
 
 nav_items = [
   "About" => "/about/",
-  "News & Events"  => "/posts/",
+  "News & Events" => "/posts/",
   "People" => "/people/",
   "Software" => "/software/",
 ]
 
 # Social URLs for the home page
 
-social_github   = "https://github.com/Unil-SGC/"
+social_github = "https://github.com/Unil-SGC/"
 
 # Layout / Franklin specifics
 
