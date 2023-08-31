@@ -1,4 +1,4 @@
-# Unil-SGC.github.io
+# unil-sgc.github.io
 Swiss Geocomputing Centre dev website landing page
 
 👉 **https://unil-sgc.github.io/**
