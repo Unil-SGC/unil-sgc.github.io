@@ -4,9 +4,9 @@ header = "People"
 
 ### Executive team
 
-[**Marj Tonini**](https://github.com/psanan) Director
+[**Marj Tonini**](https://applicationspub.unil.ch/interpub/noauth/php/Un/UnPers.php?PerNum=1034786&LanCode=37&menu=coord) Director
 
-> Blurb about research
+> Marj Tonini is a spatial data scientist with a strong interest in geospatial modeling for risk assessment, mainly related to wildfires and landslides. Her research focuses on the development of innovative approaches to enable efficient learning from complex environmental datasets.
 
 [**Christian Kaiser**](https://github.com/psanan) Vice-director
 
