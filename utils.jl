@@ -33,12 +33,8 @@ end
 # Logic to show the list of tags for a page
 # ===============================================
 
-function hfun_taglist()
-    return hfun_list_posts(getlvar(:tag_name))
-end
-
 # function hfun_taglist()
-#     return hfun_list_events(getlvar(:tag_name))
+#     return hfun_list_posts(getlvar(:tag_name))
 # end
 
 # ===============================================
@@ -50,8 +46,9 @@ end
 # all posts.
 # ===============================================
 
-function hfun_list_posts(t::String)
-    dir = "posts"
+function hfun_list_posts(p::Vector{String})
+    dir = p[1]
+    t = (length(p) == 1) ? "" : p[2:end]
     return string(
         node("ul",
                 (
@@ -64,24 +61,7 @@ function hfun_list_posts(t::String)
             )
         )
 end
-hfun_list_posts() = hfun_list_posts("")
-
-function hfun_list_events(t::String)
-    dir = "events"
-    return string(
-        node("ul",
-                (
-                    node("li",
-                        node("span", class="date", Dates.format(p.date, "U d, yyyy") * "  — "),
-                        node("a", class="title", href=p.href, p.title)
-                    )
-                    for p in get_posts(t, dir)
-                )...
-            )
-        )
-end
-hfun_list_events() = hfun_list_events("")
-
+# hfun_list_posts() = hfun_list_posts("")
 
 function get_posts(t::String, dir::String)
     # find all valid "posts/xxx.md" files, exclude the index which is where

@@ -3,4 +3,4 @@ title = "Events"
 header = "Events"
 +++
 
-{{list_events}}
+{{list_posts events}}
