@@ -6,7 +6,8 @@ header = "People"
 
 [**Marj Tonini**](https://wp.unil.ch/geocomputing/home/people/executive-team/marj-tonini/) Director
 
-> Marj Tonini is a spatial data scientist with a strong interest in geospatial modeling for risk assessment, mainly related to wildfires and landslides. Her research focuses on the development of innovative approaches allowing to enable efficient learning from complex environmental datasets.
+> Marj's research focuses on the development of innovative approaches to enable efficient learning from complex environmental datasets.
+
 
 [**Christian Kaiser**](https://igd.unil.ch/ckaiser/en/presentation/) Vice-director
 
