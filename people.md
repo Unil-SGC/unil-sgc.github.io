@@ -29,7 +29,7 @@ header = "People"
 
 [**György Hetényi**](https://wp.unil.ch/orog3ny/people/gyorgy-hetenyi/)
 
-> György Hetényi is interested in the continental lithosphere: its structure, its deformation and the associated physical processes. His principal tools of investigation are geophysical imaging (seismology, gravimetry, drilling) and numerical modelling (themo-mechanical, petrological), including fieldwork.
+> György's research focuses on in the continental lithosphere: its structure, its deformation and the associated physical processes. His principal tools of investigation are geophysical imaging (seismology, gravimetry, drilling) and numerical modelling (themo-mechanical, petrological), including fieldwork.
 
 [**Guillaume Jouvet**](https://jouvetg.github.io/)
 
