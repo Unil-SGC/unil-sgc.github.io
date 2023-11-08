@@ -47,9 +47,9 @@ header = "People"
 
 > Stefan's main research interests are the quantification of geological processes with mathematical models that are based on the concepts of continuum mechanics and thermodynamics, particularly the study of mountain building processes.
 
-[**Yuri Podladchikov**](https://applicationspub.unil.ch/interpub/noauth/php/Un/UnPers.php?PerNum=1114982&LanCode=8&menu=coord)
+<!-- [**Yuri Podladchikov**](https://applicationspub.unil.ch/interpub/noauth/php/Un/UnPers.php?PerNum=1114982&LanCode=8&menu=coord)
 
-> Yuri's research targets the physics of geological processes with emphasis on multi-physics coupling owing to thermo-hydro-mechanical and chemical interactions. He pushes the boundaries of HPC and fosters the lateral spreading of supercomputing in the Earth sciences.
+> Yuri's research targets the physics of geological processes with emphasis on multi-physics coupling owing to thermo-hydro-mechanical and chemical interactions. He pushes the boundaries of HPC and fosters the lateral spreading of supercomputing in the Earth sciences. -->
 
 [**Céline Rozenblat**](https://applicationspub.unil.ch/interpub/noauth/php/Un/UnPers.php?PerNum=1048878&LanCode=8&menu=coord)
 
