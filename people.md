@@ -49,14 +49,14 @@ header = "People"
 
 [**Yuri Podladchikov**](https://applicationspub.unil.ch/interpub/noauth/php/Un/UnPers.php?PerNum=1114982&LanCode=8&menu=coord)
 
-> Blurb about research with link to personal website
+> Yuri's research targets the physics of geological processes with emphasis on multi-physics coupling owing to thermo-hydro-mechanical and chemical interactions. He pushes the boundaries of HPC and fosters the lateral spreading of supercomputing in the Earth sciences.
 
 [**Céline Rozenblat**](https://applicationspub.unil.ch/interpub/noauth/php/Un/UnPers.php?PerNum=1048878&LanCode=8&menu=coord)
 
-> Céline researches are widely directed on the relations between evolutions of powers and values and networks dynamics into systems of territories. In order to develop these topics in a comparative point of view, she built many large database on European cities and on networks since 1987.
+> Céline's research is widely directed on the relations between evolutions of powers and values and networks dynamics into systems of territories. In order to develop these topics in a comparative point of view, she built many large database on European cities and on networks since 1987.
 
 ### Assistant
 
 [**Haokun Liu**](https://applicationspub.unil.ch/interpub/noauth/php/Un/UnPers.php?PerNum=1265460&LanCode=8)
 
-> Haokun is a student assistant in Swiss Geocomputing Center. His research are focusing on the urban complexity, health geography and spatial data science.
+> Haokun is a student assistant in the Swiss Geocomputing Centre. His research focusses on the urban complexity, health geography and spatial data science.
