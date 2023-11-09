@@ -3,4 +3,4 @@ title = "News"
 header = "News"
 +++
 
-{{list_posts posts}}
+{{list_posts}}
