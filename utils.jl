@@ -46,24 +46,10 @@ end
 # all posts.
 # ===============================================
 
-# function hfun_list_posts(p::Vector{String})
-#     dir = p[1]
-#     t = (length(p) == 1) ? "" : p[2:end]
-#     return string(
-#         node("ul",
-#                 (
-#                     node("li",
-#                         node("span", class="date", Dates.format(p.date, "U d, yyyy") * "  — "),
-#                         node("a", class="title", href=p.href, p.title)
-#                     )
-#                     for p in get_posts(t, dir)
-#                 )...
-#             )
-#         )
-# end
-# hfun_list_posts() = hfun_list_posts("")
-
 function hfun_list_posts(t::String)
+    path = dirname(cur_lc().rpath)
+    startswith(path, "tags") && return ""
+
     dir = splitpath(cur_lc().rpath)[end-1]
     return string(
         node("ul",
