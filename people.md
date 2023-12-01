@@ -12,16 +12,16 @@ header = "People"
 
 > Christian Kaiser is a specialist in geovisualisation, quantitative geography, GIS, geocomputation and data science. His research interests include topics of «Computational GIScience» and dynamic and interactive visualisation.
 
-[**Ludovic Räss**](https://github.com/luraess) Computational geoscientist
+[**Ludovic Räss**](https://github.com/luraess) Vice-director
 
-> Ludovic's research focuses on the development and application of high-performance and scalable software tools to further understand the localisation of flow and deformation in ice and porous rocks.
+> Ludovic is a computational geoscientist with research interests focussing on the development and application of high-performance and scalable software tools to further understand the localisation of flow and deformation in ice and porous rocks.
 
 
 ### Scientific committee
 
 [**Tom Beucler**](https://github.com/tbeucler)
 
-> Tom's broad interests are atmospheric physics, deep learning, climate informatics and environmental fluid dynamics. He combine statistics, theory, numerical simulations and observational analyses to improve our understanding of meteorology and climate, and guide the development of operational models of storms and clouds. 
+> Tom's broad interests are atmospheric physics, deep learning, climate informatics and environmental fluid dynamics. He combine statistics, theory, numerical simulations and observational analyses to improve our understanding of meteorology and climate, and guide the development of operational models of storms and clouds.
 
 [**Daniela Domeisen**](https://wp.unil.ch/atmos/people/daniela-domeisen/)
 
@@ -37,11 +37,11 @@ header = "People"
 
 [**Gregoire Mariethoz**](https://wp.unil.ch/gaia/team/gregoire-mariethoz/)
 
-> Gregoire's research interests reside in the development of stochastic methods that characterize the spatial and temporal variability inherent to hydrological systems. He develop numerical techniques using high-order, non-parametric statistics, which allow for mining the full richness of modern datasets. 
+> Gregoire's research interests reside in the development of stochastic methods that characterize the spatial and temporal variability inherent to hydrological systems. He develop numerical techniques using high-order, non-parametric statistics, which allow for mining the full richness of modern datasets.
 
 [**Beatriz Quintal**](https://applicationspub.unil.ch/interpub/noauth/php/Un/UnPers.php?PerNum=1139914&LanCode=8&menu=coord)
 
-> Beatriz' research interests are all about hydro-mechanical properties of rocks, which she studies through numerical simulations and laboratory experiments. Her particular focus is on frequency-dependent attenuation of seismic waves associated with physical phenomena occurring in the pore fluid. 
+> Beatriz' research interests are all about hydro-mechanical properties of rocks, which she studies through numerical simulations and laboratory experiments. Her particular focus is on frequency-dependent attenuation of seismic waves associated with physical phenomena occurring in the pore fluid.
 
 [**Stefan Schmalholz**](https://applicationspub.unil.ch/interpub/noauth/php/Un/UnPers.php?PerNum=1104631&LanCode=8)
 
