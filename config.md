@@ -18,7 +18,7 @@ tw_descr = meta_descr
 website_url = "https://unil-sgc.github.io/"
 
 footer_notice = """
-  © 2022 $author · Powered by
+  © 2024 $author · Powered by
     <a href="https://franklin.jl">Franklin.jl</a> &
     <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>."""
 
