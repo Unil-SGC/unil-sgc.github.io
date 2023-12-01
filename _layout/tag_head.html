@@ -64,46 +64,10 @@
     </a>
   </div>
 
-  <main class="wrapper {{ispage index.html}}landing{{end}}">
-
   <main class="wrapper">
 
     {{insert nav.html}}
 
     <div class="content">
 
-      {{ispage index.html 404.html}}
-        <section class="container centered">
-
-      {{else}} {{ispage /news/ /events/}}
         <section class="container list">
-          <h1 class="title">
-            <a class="title-link" href="/{{_relative_url}}">
-              <!-- Posts -->
-              {{header}}
-            </a>
-          </h1>
-
-      {{else}} {{ispage /news/* /events/*}}
-        <section class="container post">
-          {{insert post_header.html}}
-
-      {{else}} {{ispage /tags/*}}
-        <section class="container list">
-
-      {{else}}
-        <section class="container page">
-          {{isdef header}}
-            <header>
-              <h1 class="title">
-                <a class="title-link" href="/{{_relative_url}}">
-                  {{header}}
-                </a>
-              </h1>
-            </header>
-          {{end}}
-
-      {{end}} <!-- default -->
-      {{end}} <!-- tags -->
-      {{end}} <!-- posts/* -->
-      {{end}} <!-- index/404 -->

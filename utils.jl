@@ -31,10 +31,40 @@ end
 
 # ===============================================
 # Logic to show the list of tags for a page
+#
+# Assumes that 'date' and 'title' are defined for
+# all posts.
 # ===============================================
 
 function hfun_taglist()
-    return hfun_list_posts(getlvar(:tag_name))
+    current_tag = getlvar(:tag_name)
+
+    connected_rps = [
+        rpi
+        for (rpi, lci) in cur_gc().children_contexts
+        if current_tag in values(get_page_tags(lci))
+    ]
+    posts = [
+        (
+            date  = getvarfrom(:date, rp),
+            title = getvarfrom(:title, rp),
+            href  = "/$(splitext(rp)[1])",
+            tags  = get_page_tags(rp)
+        )
+        for rp in connected_rps
+    ]
+
+    return string(
+        node("ul",
+            (
+                node("li",
+                    node("span", class="date", Dates.format(p.date, "U d, yyyy") * "  — "),
+                    node("a", class="title", href=p.href, p.title)
+                )
+                for p in posts
+            )...
+        )
+    )
 end
 
 # ===============================================
@@ -46,7 +76,11 @@ end
 # all posts.
 # ===============================================
 
-function hfun_list_posts(t::String)
+function hfun_list_posts()
+    path = dirname(cur_lc().rpath)
+    startswith(path, "tags") && return ""
+
+    dir = splitpath(cur_lc().rpath)[end-1]
     return string(
         node("ul",
                 (
@@ -54,22 +88,20 @@ function hfun_list_posts(t::String)
                         node("span", class="date", Dates.format(p.date, "U d, yyyy") * "  — "),
                         node("a", class="title", href=p.href, p.title)
                     )
-                    for p in get_posts(t)
+                    for p in get_posts(dir)
                 )...
             )
         )
 end
-hfun_list_posts() = hfun_list_posts("")
 
-
-function get_posts(t::String)
+function get_posts(dir::String)
     # find all valid "posts/xxx.md" files, exclude the index which is where
     # the post-list gets placed
     paths = joinpath.(
-        "posts",
+        dir,
         filter!(
             p -> endswith(p, ".md") && p != "index.md",
-            readdir("posts")
+            readdir(dir)
         )
     )
     # for each of those posts, retrieve date and title, both are expected
@@ -84,11 +116,5 @@ function get_posts(t::String)
         for rp in paths
     ]
     sort!(posts, by = x -> x.date, rev=true)
-    if !isempty(t)
-        filter!(
-            p -> t in values(p.tags),
-            posts
-        )
-    end
     return posts
 end
