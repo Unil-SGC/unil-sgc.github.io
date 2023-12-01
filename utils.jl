@@ -31,6 +31,9 @@ end
 
 # ===============================================
 # Logic to show the list of tags for a page
+#
+# Assumes that 'date' and 'title' are defined for
+# all posts.
 # ===============================================
 
 function hfun_taglist()
