@@ -29,6 +29,7 @@ nav_items = [
   "People" => "/people/",
   "Software" => "/software/",
   "Geodata" => "/geodata/",
+  "Resources" => "/resources/",
 ]
 
 # Social URLs for the home page
