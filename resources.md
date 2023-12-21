@@ -1,5 +1,6 @@
 +++
 header = "Resources"
+maxtoclevel = 2
 +++
 
 Explore the available resources, some are free for the UNIL community, and some need to pay for business professionals.
