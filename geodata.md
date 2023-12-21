@@ -8,7 +8,7 @@ Many datasets, related to Earth, environmental science and geography, are availa
 
 ## Swiss 3D models
 
-In geosciences, 3D models are one of the most valuable data types, they are so versatile and can be used for many different applications. Below, a dataset with swiss 3D models : **swissALTI3D**, **swissSURFACE3D**, **swissSURFACE3D Raster**, **swissBATHY3D**, **DHM 25 and DHM/200m**. More information about the technical details for this dataset below.
+In geosciences, 3D models are one of the most valuable data types, they are so versatile and can be used for many different applications. Below, a dataset with swiss 3D models: **swissALTI3D**, **swissSURFACE3D**, **swissSURFACE3D Raster**, **swissBATHY3D**, **DHM 25 and DHM/200m**. More information about the technical details for this dataset below.
 
 - [swissALTI3D](https://www.swisstopo.admin.ch/en/geodata/height/alti3d.html): **swissALTI3D** is an extremely precise digital elevation model which describes the surface of Switzerland without vegetation and development. Application includes: 1) Height data-set in a geographic information system, 2) 3D visualisations, simulations and visibility analyses, 3) Mapping small structures and forest paths, 4) Planning tool in the fields of spatial planning, telecommunications, natural hazards and forestry, and 5) Ortho-rectification of aerial and satellite images.
 
