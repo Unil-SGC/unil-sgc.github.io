@@ -6,6 +6,10 @@ Explore the available resources, some are free for the UNIL community, and some 
 
 \toc
 
+## Swiss Geocomputing Centre resources
+### Assets (Logos & more)
+Follow this link [:link: (https://github.com/Unil-SGC/sgc-assets)](https://github.com/Unil-SGC/sgc-assets) to access and download the logo and other assets of the SGC.
+
 ## Learning resources
 
 - [Getting Started with Machine Learning](https://wp.unil.ch/dawn/getting-started-with-machine-learning/): a list of resources to help environmental scientists get started with machine learning. It included tutorials with codes, literature reviews, textbooks (often including code), and datasets that are already pre-processed for machine learning applications.
