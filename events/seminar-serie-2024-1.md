@@ -1,7 +1,7 @@
 +++
 using Dates
 
-title = "Seminar Series 2024"
+title = "SGC Seminar Series 2024"
 date = Date(2024, 01, 09)
 reading_time = "2-minute read"
 
@@ -18,18 +18,18 @@ The **First SGC Seminar Series** presents leading-edge research carried out by t
 
 It will be held from 15:30 to 16:30 at Geopolis and followed by an informal apero :tada: !
 
-| Speaker | Date | room | Title |
-| ------- | ----------- | ----- |
-| Marj Tonini  | 18.01 | GEO 2113 | Towards Geo-Data Science: practical concepts and environmental applications |
-| Ludovic Räss |       |          | Combining geo-HPC and tooling towards reproducible research |
-| Christian Kaiser |   |          | Analysis of mobility potential and behavior: a computational geography approach |
-| Daniela Domeisen | 8.02 | GEO 2113 | Modelling and predicting extreme weather events |
-| Guillaume Jouvet |      |          | Glacier ice flow modelling based on Physics-informed deep learning |
-| Tom Beucler      | 22.02 | GEO 2235 | Adding and calibrating uncertainty in neural networks for climate applications |
-| Flavio Calvo & Margot Sirdey |    |  | HPC success stories |
-| Céline Rozenblat | 29.02 | GEO 2235 | What could be the interest of the involvement of the Geocomputing center in the UN-GGIM: United Nations - Global Geospatial Information management ? |
-| György Hetényi & Ariane Maharaj | (TBC) | GEO 2235 | Solid Earth geophysics: classical imaging and inversion for 3D structures |
-| Gregoire Mariethoz | 14.03 | GEO 2235 | Generating synthetic satellite observations |
-| Stefan Schmalholz  |       |          | Deterministic modeling in geodynamics: Towards 3D thermo-hydro-mechanical-chemical simulations |
+| Date | Speaker | room | Title |
+| -----| ------- | ---- | ----- |
+| **18 Jan** | Marj Tonini  | GEO 2113 | Towards Geo-Data Science: practical concepts and environmental applications |
+|            | Ludovic Räss |          | Combining geo-HPC and tooling towards reproducible research |
+|            | Christian Kaiser |      | Analysis of mobility potential and behavior: a computational geography approach |
+| **8 Feb**  | Daniela Domeisen | GEO 2113 | Modelling and predicting extreme weather events |
+|            | Guillaume Jouvet |          | Glacier ice flow modelling based on Physics-informed deep learning |
+| **22 Feb** | Tom Beucler          | GEO 2235 | Adding and calibrating uncertainty in neural networks for climate applications |
+|            | Flavio Calvo & Margot Sirdey |  | HPC success stories |
+| **29 Feb** | Céline Rozenblat | GEO 2235 | What could be the interest of the involvement of the Geocomputing center in the UN-GGIM: United Nations - Global Geospatial Information management ? |
+| (TBC)      | György Hetényi & Ariane Maharaj | GEO 2235 | Solid Earth geophysics: classical imaging and inversion for 3D structures |
+| **14 Mar** | Gregoire Mariethoz | GEO 2235 | Generating synthetic satellite observations |
+|            | Stefan Schmalholz  |          | Deterministic modeling in geodynamics: Towards 3D thermo-hydro-mechanical-chemical simulations |
 
 Looking forward to seeing you there!
