@@ -26,7 +26,7 @@ It will be held from 15:30 to 16:30 at Geopolis and followed by an informal aper
 |            | Guillaume Jouvet   |          | Glacier ice flow modelling based on Physics-informed deep learning |
 | **22 Feb** | Tom Beucler        | GEO 2235 | Adding and calibrating uncertainty in neural networks for climate applications |
 |            | Flavio Calvo & Margot Sirdey |             | HPC success stories |
-| **29 Feb** | Céline Rozenblat   | GEO 2235 | What could be the interest of the involvement of the Geocomputing center in the UN-GGIM: United Nations - Global Geospatial Information management ? |
+| **29 Feb** | Céline Rozenblat   | GEO 2235 | What could be the interest of the involvement of the Swiss Geocomputing Centre in the UN-GGIM: United Nations - Global Geospatial Information management ? |
 | (TBC)      | György Hetényi & Ariane Maharaj | GEO 2235 | Solid Earth geophysics: classical imaging and inversion for 3D structures |
 | **14 Mar** | Gregoire Mariethoz | GEO 2235 | Generating synthetic satellite observations |
 |            | Stefan Schmalholz  |          | Deterministic modeling in geodynamics: Towards 3D thermo-hydro-mechanical-chemical simulations |
