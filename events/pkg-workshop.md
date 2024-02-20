@@ -43,6 +43,6 @@ The language is English. No online option will be available.
 
 ## Material
 
-Slides and other assets including codes and packages can be found here
+Slides and other assets including codes and packages can be found here:
 - [Python packaging (https://github.com/Unil-SGC/julia-packaging)](https://github.com/Unil-SGC/julia-packaging)
 - [Julia packaging (https://github.com/MargotSirdey/python-packaging)](https://github.com/MargotSirdey/python-packaging)
