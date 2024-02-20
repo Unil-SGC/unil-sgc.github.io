@@ -30,12 +30,12 @@ The language is English. No online option will be available.
 - **10h - 10h30/45**: Introduction to good practices
     - reproducible environments, documentation, version control
     - why and when create a Package
-- **10h45 - 12h45**: [Python Packaging](https://github.com/Unil-SGC/julia-packaging)
+- **10h45 - 12h45**: [Python Packaging](https://github.com/MargotSirdey/python-packaging)
     - transform your jupyter notebook into a python script
     - create a Python package from this python script
     - share the package
 - **12h45 - 14h**: Lunch break
-- **14h - 16h**: [Julia Packaging](https://github.com/MargotSirdey/python-packaging)
+- **14h - 16h**: [Julia Packaging](https://github.com/Unil-SGC/julia-packaging)
     - transform your Julia jupyter notebook into a Julia script
     - create a Julia package from this Julia script
     - share the package
@@ -44,5 +44,5 @@ The language is English. No online option will be available.
 ## Material
 
 Slides and other assets including codes and packages can be found here:
-- [Python packaging (https://github.com/Unil-SGC/julia-packaging)](https://github.com/Unil-SGC/julia-packaging)
-- [Julia packaging (https://github.com/MargotSirdey/python-packaging)](https://github.com/MargotSirdey/python-packaging)
+- [Python packaging (https://github.com/MargotSirdey/python-packaging)](https://github.com/MargotSirdey/python-packaging)
+- [Julia packaging (https://github.com/Unil-SGC/julia-packaging)](https://github.com/Unil-SGC/julia-packaging)
