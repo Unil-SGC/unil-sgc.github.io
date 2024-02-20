@@ -2,7 +2,7 @@
 using Dates
 
 title = "Packaging Workshop (Python and Julia)"
-date = Date(2024, 1, 16)
+date = Date(2024, 2, 20)
 reading_time = "2-minute read"
 
 tags = ["Workshop", "Event", "Git", "Julia", "Python"]
