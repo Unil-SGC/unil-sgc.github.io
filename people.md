@@ -39,24 +39,26 @@ header = "People"
 
 > Gregoire's research interests reside in the development of stochastic methods that characterize the spatial and temporal variability inherent to hydrological systems. He develop numerical techniques using high-order, non-parametric statistics, which allow for mining the full richness of modern datasets.
 
-[**Beatriz Quintal**](https://applicationspub.unil.ch/interpub/noauth/php/Un/UnPers.php?PerNum=1139914&LanCode=8&menu=coord)
-
-> Beatriz' research interests are all about hydro-mechanical properties of rocks, which she studies through numerical simulations and laboratory experiments. Her particular focus is on frequency-dependent attenuation of seismic waves associated with physical phenomena occurring in the pore fluid.
-
 [**Stefan Schmalholz**](https://applicationspub.unil.ch/interpub/noauth/php/Un/UnPers.php?PerNum=1104631&LanCode=8)
 
 > Stefan's main research interests are the quantification of geological processes with mathematical models that are based on the concepts of continuum mechanics and thermodynamics, particularly the study of mountain building processes.
-
-<!-- [**Yuri Podladchikov**](https://applicationspub.unil.ch/interpub/noauth/php/Un/UnPers.php?PerNum=1114982&LanCode=8&menu=coord)
-
-> Yuri's research targets the physics of geological processes with emphasis on multi-physics coupling owing to thermo-hydro-mechanical and chemical interactions. He pushes the boundaries of HPC and fosters the lateral spreading of supercomputing in the Earth sciences. -->
 
 [**Céline Rozenblat**](https://applicationspub.unil.ch/interpub/noauth/php/Un/UnPers.php?PerNum=1048878&LanCode=8&menu=coord)
 
 > Céline's research is widely directed on the relations between evolutions of powers and values and networks dynamics into systems of territories. In order to develop these topics in a comparative point of view, she built many large database on European cities and on networks since 1987.
 
-### Assistant
+### Assistants
+
+[**Jacques Soutter**](https://applicationspub.unil.ch/interpub/noauth/php/Un/UnPers.php?PerNum=1265650&LanCode=8)
+
+> Jacques assists the executive team of the Swiss Geocomputing Centre organising various events, being also a PhD student at IGD.
 
 [**Haokun Liu**](https://applicationspub.unil.ch/interpub/noauth/php/Un/UnPers.php?PerNum=1265460&LanCode=8)
 
 > Haokun is a student assistant in the Swiss Geocomputing Centre. His research focusses on the urban complexity, health geography and spatial data science.
+
+### Past members
+
+[**Beatriz Quintal**](https://applicationspub.unil.ch/interpub/noauth/php/Un/UnPers.php?PerNum=1139914&LanCode=8&menu=coord) scientific committee
+
+[**Yuri Podladchikov**](https://applicationspub.unil.ch/interpub/noauth/php/Un/UnPers.php?PerNum=1114982&LanCode=8&menu=coord) founding member

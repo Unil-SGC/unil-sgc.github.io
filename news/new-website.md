@@ -8,4 +8,6 @@ reading_time = "2-minute read"
 tags = ["Git", "News"]
 +++
 
+_by Ludovic Räss_
+
 The Swiss Geocomputing Centre has now a GitHub organisation, accessible at [https://github.com/Unil-SGC](https://github.com/Unil-SGC), and also new website :rocket:
