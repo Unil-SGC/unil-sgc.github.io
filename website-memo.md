@@ -9,17 +9,17 @@ Make sure to have the Xranklin package added:
 ```julia-repl
 julia> ]
 
-(@v1.9) pkg> add https://github.com/tlienart/Xranklin.jl
+(@v1.10) pkg> add https://github.com/tlienart/Xranklin.jl
 ```
 
-To test the website locally (or after making a pull from Git), `cd` to the local GPU4GEO repo and:
+To test the website locally (or after making a pull from Git), `cd` to the local unil-sgc.github.io repo and:
 ```julia-repl
 julia> using Xranklin
 
 julia> serve(clear=true)
 ```
 
-_If nothing shows up, open a browser and heat to `http://localhost:8000/`._
+_If nothing shows up, open a browser and head to `http://localhost:8000/`._
 
 ## Publishing workflow
 
