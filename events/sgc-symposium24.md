@@ -8,6 +8,8 @@ reading_time = "2-minute read"
 tags = ["Event"]
 +++
 
+\toc
+
 ## General information
 
 The Swiss Geocomputing Centre (SGC) at the Faculty of Geosciences and Environment (FGSE), University of Lausanne (Unil), is organising a 2-day symposium, themed **Bridging Modelling and Data Sciences in the geosciences**. This event will provide a platform for students and researchers to showcase their work and connect with actors from the public sector and leading tech companies. It aims to cultivate dialogue and potential collaborations in applied computational sciences within the geosciences.
@@ -15,6 +17,8 @@ The Swiss Geocomputing Centre (SGC) at the Faculty of Geosciences and Environmen
 The symposium will explore intersections across various computational disciplines, including geo-modelling, geospatial data sciences, GIS, and high-performance computing, with a focus on differentiable modelling, AI/ML, GPU-based processing, and effective research practices in reproducibility and open-source development. The 2-day symposium will be held in Autumn 2024, November 21 and 22, in at Unil.
 
 This symposium aims to unite researchers and institutions through computational/spatial modelling expertise and collaborative opportunities. The symposium will further expand the on-going activities to include external experts. It will feature presentations, devote time for idea exchanges, and short courses led by industry leaders like Nvidia, focusing on geospatial sciences and GPU computing.
+
+[:memo: Go to **registration**](#registration)
 
 
 ## Preliminary Program
@@ -51,11 +55,10 @@ This symposium aims to unite researchers and institutions through computational/
 
 ## Registration
 
-
 The symposium is completely free of charge. On site, you will be free to attend whichever conferences
 you like, but please indicate through the form which sessions you are interested in.
 
 Moreover, there are still many slots open for **poster presentations** and we encourage
 you to sign up if you have any past or current research you want to present.
 
-:ledger: Registration is here: (lien)
+:memo: **Register here:** (lien)
