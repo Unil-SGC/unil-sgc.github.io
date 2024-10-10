@@ -2,8 +2,8 @@
 using Dates
 
 title = "Symposium on Bridging Modelling and Data Sciences"
-date = Date(2024, 9, 21)
-reading_time = "2-minute read"
+date = Date(2024, 11, 21)
+reading_time = "3-minute read"
 
 tags = ["Event"]
 +++
@@ -18,7 +18,7 @@ The symposium will explore intersections across various computational discipline
 
 This symposium aims to unite researchers and institutions through computational/spatial modelling expertise and collaborative opportunities. The symposium will further expand the on-going activities to include external experts. It will feature presentations, devote time for idea exchanges, and short courses led by industry leaders like Nvidia, focusing on geospatial sciences and GPU computing.
 
-[:memo: Go to **registration**](#registration)
+[:memo: Go to **Registration**](#registration)
 
 
 ## Preliminary Program
@@ -27,13 +27,15 @@ This symposium aims to unite researchers and institutions through computational/
 
 | **Time**         | **Event**                                                 |
 | ---------------- | --------------------------------------------------------- |
-| 9:30 - 10:00     | :coffee: Registration with coffee                         |
-| 10:00 - 10:30    | Welcome (short message from Céline - FGSE, SGC)           |
-| 10:30 - 11:15    | Keynote 1 - OSiRES                                        |
-| 11:15 - 12:00    | Keynote 2 - Nvidia                                        |
-| 12:00 - 12:45    | Keynote 3 - Resilio                                       |
-| 12:45 - 13:45    | :coffee: Lunch break                                      |
-| 14:00 - 17:30    | :computer: Workshops (Nvidia, OSiRES)                     |
+| 9:30 - 10:00     | :coffee: Registration with coffee (Amphipole 210)                         |
+| 10:00 - 10:30    | Welcome (short message from [Céline Rozenblat](https://applicationspub.unil.ch/interpub/noauth/php/Un/UnPers.php?PerNum=1048878&LanCode=37) - **FGSE**, **SGC**)           |
+| **Keynotes**     |    |
+| 10:30 - 11:15    |[**OSiRES**](https://www.supsi.ch/), [Massimiliano Cannata](https://www.supsi.ch/massimiliano-cannata) : \\ *Reproducibility in Geospatial Sector: Needs and Challenges*                                       |
+| 11:15 - 12:00    | [**Nvidia**](https://www.nvidia.com/en-us/), [Boris Bonev](https://research.nvidia.com/person/boris-bonev) : \\ *Title*                                       |
+| 12:00 - 12:45    |[**SDSC**´](https://www.datascience.ch/), Speaker : \\ *Title*                                    |
+| 12:45 - 13:45    | :spaghetti: Lunch break                                      |
+| **Workshops**    |    |
+| 14:00 - 17:30    |**Nvidia** (Géopolis 2121) \\**OSiRES/Ageospatial** (Géopolis 2129)                     |
 | 17:30 - 18:30    | :beer: Aperitive                                          |
 
 
@@ -41,24 +43,48 @@ This symposium aims to unite researchers and institutions through computational/
 
 | **Time**         | **Event**                                                 |
 | ---------------- | --------------------------------------------------------- |
-| 9:00 - 9:15      | Welcome with coffee                                       |
-| 9:15 - 10:00     | Keynote 4: Ageospatiale                                   |
-| 10:00 - 10:30    | Talk 1: ECCE                                              |
-| 10:30 - 11:00    | Talk 2: ETH?                                              |
+| 9:00 - 9:15      | :coffee: Welcome with coffee                                       |
+| 9:15 - 9:30      | Introduction - [Ludovic Räss](https://github.com/luraess) : \\ *Reproducible Science in Publications - Example from the EGU GMD Journal*                                       |
+| **Talks**    |    |
+| 9:30 - 10:00     |[**Ageospatial**](https://www.ageospatial.com/), Maaz Sheikh : \\ *GeoForge: Making Geospatial Data Speak to AI*                                   |
+| 10:00 - 10:30    |[**Zenodo**](https://zenodo.org/), Speaker : \\ *Title*                                              |
+| 10:30 - 11:00    |[**Resilio**](https://www.resilio.com/), Presenter : \\ *Title*                                              |
 | 11:00 - 11:30    | :coffee: Coffee break                                     |
-| 11:30 - 12:00    | Talk 3: MeteoSwiss? Zenodo?                               |
-| 12:00 - 12:30    | Talk 4: STDL? SDSC?                                       |
+| 11:30 - 12:00    |[**ECCE**](https://applicationspub.unil.ch/interpub/noauth/php/Un/UnUnite.php?UnId=394&LanCode=8), [Erwan Koch](https://applicationspub.unil.ch/interpub/noauth/php/Un/UnPers.php?PerNum=1263941&LanCode=8) : \\ *Title*                               |
+| 12:00 - 12:30    |[**ECA**](https://www.eca-vaud.ch/), [Carmen Vega](https://ch.linkedin.com/in/carmen-vega-orozco-a681b424) : \\ *Geodata Analysis & Data-Driven Solutions for Swiss Insurance: EXA Experience*                                       |
+| **Posters**    |    |
 | 12:30 - 13:30    | Poster 2-minute madness                                   |
 | 13:30 - 15:30    | Poster session & :hamburger: finger food                  |
 | 15:30 - 16:00    | Closing remarks                                           |
 
+## Workshops infos
+
+### Nvidia
+lorem ipsum
+
+### OSiRES
+In this workshop we will demonstrate and discuss the needs and challenges regarding the utilization of geospatial webservices for reproducible research
+
+### Ageospatial
+Building the future of GeoForge: An interactive workshop on Generative AI usage in geospatial data assisted disaster management
+
+**Details:** Participants will have the opportunity to test the GeoForge proof of concept. Ageospatial aims to gather valuable feedback and collaborate on ideas on how this future platform can provide real value in tackling current challenges, especially in disaster management and risk fields. We'll present use cases and invite participants to propose concrete improvements and suggest architectures for new AI frameworks such as Agentic AI systems, RAG concepts, and LangChain frameworks.
+
+**Instructor:** Maaz Sheikh
 
 ## Registration
 
-The symposium is completely free of charge. On site, you will be free to attend whichever conferences
-you like, but please indicate through the form which sessions you are interested in.
-
-Moreover, there are still many slots open for **poster presentations** and we encourage
-you to sign up if you have any past or current research you want to present.
+The symposium is completely free of charge. On site, you will be able to attend whichever conferences
+you like, but for logistical reasons please indicate through the form which sessions you are interested in and whether you will be present for the thursday lunch.
 
 :memo: **Register here:** (lien)
+
+## Posters
+
+If you wish to present your past or ongoing research with a poster on Friday afternoon, please indicate so in the registration form. There are still many slots available for poster presentations. We encourage you to sign up even if you have presented at another conference!
+
+The poster session will be divided into two parts. First, each presenter will give a 2-minute presentation on a screen to introduce their research and provide context. For the remainder of the afternoon, attendees will be free to walk around, ask questions, and create network connections.
+
+**Poster dimensions** - Please make sure your poster meets the following dimensions:  \\
+Additionally, please send your poster in PDF format to jacques.soutter@unil.ch by November 15th. \\
+If you wish to be reimbursed for the printing costs of your poster, do not hesitate to contact us.
