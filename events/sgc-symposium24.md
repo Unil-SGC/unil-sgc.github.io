@@ -29,15 +29,15 @@ This symposium aims to unite researchers and institutions through computational/
 
 | **Time**         | **Event**                                                 |
 | ---------------- | --------------------------------------------------------- |
-| 9:30 - 10:00     | :coffee: Registration with coffee (Amphipole 210)         |
-| 10:00 - 10:30    | Welcome message by [Céline Rozenblat](https://applicationspub.unil.ch/interpub/noauth/php/Un/UnPers.php?PerNum=1048878&LanCode=37) - Vice Dean FGSE, SGC |
-|                  |  **Keynote presentations** (Amphipole 210) |
-| 10:30 - 11:15    | Reproducibility in Geospatial Sector: Needs and Challenges \\ _[OSiRES](https://www.supsi.ch/), [Massimiliano Cannata](https://www.supsi.ch/massimiliano-cannata)_ |
+| 9:30 - 10:00     | :coffee: Registration with coffee ([Amphipole 210](https://planete.unil.ch/?local=POL-210))         |
+| 10:00 - 10:30    | Welcome message by [Céline Rozenblat](https://applicationspub.unil.ch/interpub/noauth/php/Un/UnPers.php?PerNum=1048878&LanCode=37) - Vice Dean FGSE |
+|                  |  **Keynote presentations** ([Amphipole 210](https://planete.unil.ch/?local=POL-210)) |
+| 10:30 - 11:15    | "Reproducibility in Geospatial Sector: Needs and Challenges" \\ _[CC-OS](https://www.supsi.ch/en/cc-os), [Massimiliano Cannata](https://www.supsi.ch/massimiliano-cannata)_ |
 | 11:15 - 12:00    | Title TBA \\ _[Nvidia Research](https://www.nvidia.com/en-us/), [Boris Bonev](https://research.nvidia.com/person/boris-bonev)_ |
 | 12:00 - 12:45    | Title TBA \\ _[SDSC](https://www.datascience.ch/), Speaker TBA_ |
 | 12:45 - 13:45    | :spaghetti: Lunch break                                      |
-|                  |  **Workshops** (Geopolis) |
-| 14:00 - 17:30    | **Nvidia** (Geopolis 2121) \\ **OSiRES/Ageospatial** (Geopolis 2129) |
+|                  |  **Workshops** ([Geopolis](https://planete.unil.ch/?batiment=GEO)) |
+| 14:00 - 17:30    | [**Nvidia**](#nvidia) ([Geopolis 2121](https://planete.unil.ch/?local=GEO-2121)) \\ [**OSiRES/Ageospatial**](#osires) ([Geopolis 2129](https://planete.unil.ch/?local=GEO-2129)) |
 | 17:30 - 18:30    | :beer: Aperitive                                          |
 
 
@@ -45,26 +45,27 @@ This symposium aims to unite researchers and institutions through computational/
 
 | **Time**         | **Event**                                                 |
 | ---------------- | --------------------------------------------------------- |
-| 9:00 - 9:15      | :coffee: Welcome with coffee  (IDHEAP)                    |
-| 9:15 - 9:30      | Reproducible Science in Publications - Example from the EGU GMD Journal \\ _Unil - SGC, [Ludovic Räss](https://github.com/luraess)_ |
-|                  |  **Talks** (IDHEAP) |
-| 9:30 - 10:00     | GeoForge: Making Geospatial Data Speak to AI \\ _[Ageospatial](https://www.ageospatial.com/), Maaz Sheikh_ |
+| 9:00 - 9:15      | :coffee: Welcome with coffee  ([IDHEAP](https://planete.unil.ch/?batiment=IDP))                    |
+| 9:15 - 9:30      | "Reproducible Science in Publications - Example from the [GMD Journal](https://www.geoscientific-model-development.net/)" \\ _Unil - SGC, [Ludovic Räss](https://github.com/luraess)_ |
+|                  |  **Talks** ([IDHEAP](https://planete.unil.ch/?batiment=IDP)) |
+| 9:30 - 10:00     | "GeoForge: Making Geospatial Data Speak to AI" \\ _[Ageospatial](https://www.ageospatial.com/), Maaz Sheikh_ |
 | 10:00 - 10:30    | Title TBA \\ _[**Zenodo**](https://zenodo.org/), Speaker TBA_ |
 | 10:30 - 11:00    | Title TBA \\ _[Resilio](https://www.resilio.com/), Speaker TBA_ |
 | 11:00 - 11:30    | :coffee: Coffee break                                     |
 | 11:30 - 12:00    | Title TBA \\ _[ECCE](https://applicationspub.unil.ch/interpub/noauth/php/Un/UnUnite.php?UnId=394&LanCode=8), [Erwan Koch](https://applicationspub.unil.ch/interpub/noauth/php/Un/UnPers.php?PerNum=1263941&LanCode=8)_ |
-| 12:00 - 12:30    | Geodata Analysis & Data-Driven Solutions for Swiss Insurance: EXA Experience \\ _[ECA](https://www.eca-vaud.ch/), [Carmen Vega](https://ch.linkedin.com/in/carmen-vega-orozco-a681b424)_ |
-|                  |  **Poster session**  |
+| 12:00 - 12:30    | "Geodata Analysis & Data-Driven Solutions for Swiss Insurance: EXA Experience" \\ _[ECA](https://www.eca-vaud.ch/), [Carmen Vega](https://ch.linkedin.com/in/carmen-vega-orozco-a681b424)_ |
+|                  |  **Poster session** ([IDHEAP](https://planete.unil.ch/?batiment=IDP)) |
 | 12:30 - 13:30    | Poster 2-minute madness                                   |
 | 13:30 - 15:30    | Poster session & :hamburger: finger food                  |
 | 15:30 - 16:00    | Closing remarks                                           |
 
 ### Workshops - Thursday, 21 November 2024
 
-#### Nvidia
 TBA
 
 :bulb: Participants interested in joining this workshop will be required to register for that in order to have access to the GPU compute resources for the workshop.
+
+#### Nvidia
 
 #### OSiRES
 In this workshop we will demonstrate and discuss the needs and challenges regarding the utilization of geospatial webservices for reproducible research.
