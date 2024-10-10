@@ -37,8 +37,8 @@ This symposium aims to unite researchers and institutions through computational/
 | 12:00 - 12:45    | Title TBA \\ _[SDSC](https://www.datascience.ch/), Speaker TBA_ |
 | 12:45 - 13:45    | :spaghetti: Lunch break                                      |
 |                  |  **Workshops** ([Geopolis](https://planete.unil.ch/?batiment=GEO)) |
-| 14:00 - 17:30    | [**Nvidia**](#nvidia) ([Geopolis 2121](https://planete.unil.ch/?local=GEO-2121)) \\ [**OSiRES/Ageospatial**](#osires) ([Geopolis 2129](https://planete.unil.ch/?local=GEO-2129)) |
-| 17:30 - 18:30    | :beer: Aperitive                                          |
+| 14:00 - 17:30    | [Nvidia](#nvidia) ([Geopolis 2121](https://planete.unil.ch/?local=GEO-2121)) \\ [OSiRES](#osires)/[Ageospatial](#ageospatial) ([Geopolis 2129](https://planete.unil.ch/?local=GEO-2129)) |
+| 17:30 - 18:30    | :beer: Aperitif                                          |
 
 
 ### Day 2 - Friday, 22 November 2024
@@ -49,7 +49,7 @@ This symposium aims to unite researchers and institutions through computational/
 | 9:15 - 9:30      | "Reproducible Science in Publications - Example from the [GMD Journal](https://www.geoscientific-model-development.net/)" \\ _Unil - SGC, [Ludovic Räss](https://github.com/luraess)_ |
 |                  |  **Talks** ([IDHEAP](https://planete.unil.ch/?batiment=IDP)) |
 | 9:30 - 10:00     | "GeoForge: Making Geospatial Data Speak to AI" \\ _[Ageospatial](https://www.ageospatial.com/), Maaz Sheikh_ |
-| 10:00 - 10:30    | Title TBA \\ _[**Zenodo**](https://zenodo.org/), Speaker TBA_ |
+| 10:00 - 10:30    | Title TBA \\ _[Zenodo](https://zenodo.org/), Speaker TBA_ |
 | 10:30 - 11:00    | Title TBA \\ _[Resilio](https://www.resilio.com/), Speaker TBA_ |
 | 11:00 - 11:30    | :coffee: Coffee break                                     |
 | 11:30 - 12:00    | Title TBA \\ _[ECCE](https://applicationspub.unil.ch/interpub/noauth/php/Un/UnUnite.php?UnId=394&LanCode=8), [Erwan Koch](https://applicationspub.unil.ch/interpub/noauth/php/Un/UnPers.php?PerNum=1263941&LanCode=8)_ |
@@ -61,11 +61,10 @@ This symposium aims to unite researchers and institutions through computational/
 
 ### Workshops - Thursday, 21 November 2024
 
+#### Nvidia
 TBA
 
 :bulb: Participants interested in joining this workshop will be required to register for that in order to have access to the GPU compute resources for the workshop.
-
-#### Nvidia
 
 #### OSiRES
 In this workshop we will demonstrate and discuss the needs and challenges regarding the utilization of geospatial webservices for reproducible research.
