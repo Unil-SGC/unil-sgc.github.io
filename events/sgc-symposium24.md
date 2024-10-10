@@ -75,7 +75,7 @@ Building the future of GeoForge: An interactive workshop on Generative AI usage 
 ## Registration
 
 The symposium is completely free of charge. On site, you will be able to attend whichever conferences
-you like, but for logistical reasons please indicate through the form which sessions you are interested in and whether you will be present for the thursday lunch.
+you like, but for logistical reasons please indicate through the form which sessions you are interested in.
 
 :memo: **Register here:** (lien)
 
