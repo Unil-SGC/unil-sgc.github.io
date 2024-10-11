@@ -10,11 +10,11 @@ tags = ["Event"]
 
 ## General information
 
-The Swiss Geocomputing Centre (SGC) at the Faculty of Geosciences and Environment (FGSE), University of Lausanne (Unil), is organising a 2-day symposium, themed **Bridging Modelling and Data Sciences in the geosciences** on **21 and 22 November 2024**, at Unil. This event will provide a platform for students and researchers to showcase their work and connect with actors from the public private sectors. It aims to cultivate dialogue and potential collaborations in applied computational sciences within the geosciences.
+The Swiss Geocomputing Centre (SGC) invites you to the symposium **Bridging Modelling and Data Sciences in the Geosciences**, taking place on **November 21-22, 2024** at the University of Lausanne.
 
-> :bulb: **Note:** The event is free but [**registration is mandatory**](#registration)
+The event will feature engaging talks and workshops on topics tackling reproducibility in the geoscientific domain, integrating geospatial data into ML/AI workflows, geocomputation for weather and climate modelling, applications in the insurance domain, and green IT, amongst others.
 
-The symposium will explore intersections across various computational disciplines, including geo-modelling, geospatial data sciences, GIS, and high-performance computing, with a focus on differentiable modelling, AI/ML, GPU-based processing, and effective research practices in reproducibility and open-source development. It further aims to unite researchers and institutions through computational/spatial modelling expertise and collaborative opportunities. The symposium will further expand the on-going activities to include external experts. It will feature presentations, devote time for idea exchanges, and offer short courses led by Nvidia, OSiRES and Ageospatial, focusing on geospatial sciences and GPU computing.
+This symposium aims to provide a dynamic venue for showcasing research, fostering interdisciplinary dialogue, and building connections between academia, industry, and public sectors. We welcomes participants at all stages of their career and invite you to contribute in a poster session.
 
 > **Infos**
 >
@@ -22,7 +22,7 @@ The symposium will explore intersections across various computational discipline
 >
 > 📅 **Dates:** 21-22 November 2024
 >
-> :memo: **Registration:** [Link to register](#registration)
+> :memo: **Registration:** [Link to register](#registration) _(the event is free but [registration is mandatory](#registration))_
 
 
 ## Program
