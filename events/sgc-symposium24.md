@@ -35,8 +35,8 @@ This symposium aims to provide a dynamic venue for showcasing research, fosterin
 | 10:00 - 10:30    | Welcome message by [Céline Rozenblat](https://applicationspub.unil.ch/interpub/noauth/php/Un/UnPers.php?PerNum=1048878&LanCode=37) - Vice Dean FGSE |
 |                  |  **Keynote presentations** ([Amphipole 210](https://planete.unil.ch/?local=POL-210)) |
 | 10:30 - 11:15    | **Reproducibility in Geospatial Sector: Needs and Challenges** \\ _[CC-OS](https://www.supsi.ch/en/cc-os), [Massimiliano Cannata](https://www.supsi.ch/massimiliano-cannata)_ |
-| 11:15 - 12:00    | Title TBA \\ _[Nvidia Research](https://www.nvidia.com/en-us/), [Boris Bonev](https://research.nvidia.com/person/boris-bonev)_ |
-| 12:00 - 12:45    | **AI in Environmental Sciences at the SDSC** \\ _[SDSC](https://www.datascience.ch/), Ekaterina Krymova_ |
+| 11:15 - 12:00    | **Digital Twins of the Atmosphere in the Era of Machine Learning** \\ _[Nvidia Research](https://www.nvidia.com/en-us/), [Boris Bonev](https://research.nvidia.com/person/boris-bonev)_ |
+| 12:00 - 12:45    | **AI in Environmental Sciences at the SDSC** \\ _[SDSC](https://www.datascience.ch/), [Ekaterina Krymova](https://www.datascience.ch/people/ekaterina-krymova)_ |
 | 12:45 - 13:45    | :spaghetti: Lunch break                                      |
 |                  |  **Workshops** ([Geopolis](https://planete.unil.ch/?batiment=GEO)) |
 | 14:00 - 17:30    | [Nvidia](#nvidia) ([Geopolis 2121](https://planete.unil.ch/?local=GEO-2121)) \\ [OSiRES](#osires)/[Ageospatial](#ageospatial) ([Geopolis 2129](https://planete.unil.ch/?local=GEO-2129)) |
@@ -69,10 +69,16 @@ TBA
 :bulb: Participants interested in joining this workshop will be required to register for that in order to have access to the GPU compute resources for the workshop.
 
 #### OSiRES
-In this workshop we will demonstrate and discuss the needs and challenges regarding the utilization of geospatial webservices for reproducible research.
+Demonstrating the utilisation of geospatial webservices for reproducible research
+
+**Details:** While modern Spatial Data Infrastructures (e.g. swisstopo or INSPIRE) use interoperable web services and open standards to serve large datasets, they lack the ability to retrieve geodata as it existed at a specific point in time, refer to its status at that instant, and ensure its immutability.
+OSIReS is a project co-financed by swissuniversities in the frame of its Programme Open Science I, Phase B, that aims at tackle this issue. In this
+workshop, after presenting the project during the Keynote session, we will demonstrate and discuss the needs and challenges regarding the utilisation of geospatial webservices for reproducible research.
+
+**Instructor:** [Ingensand Jens](https://people.hes-so.ch/de/profile/2912116448-jens-ingensand)
 
 #### Ageospatial
-Building the future of GeoForge: An interactive workshop on Generative AI usage in geospatial data assisted disaster management
+Building the future of GeoForge: An interactive workshop on Generative AI usage in geospatial data assisted disaster management.
 
 **Details:** Participants will have the opportunity to test the GeoForge proof of concept. Ageospatial aims to gather valuable feedback and collaborate on ideas on how this future platform can provide real value in tackling current challenges, especially in disaster management and risk fields. We'll present use cases and invite participants to propose concrete improvements and suggest architectures for new AI frameworks such as Agentic AI systems, RAG concepts, and LangChain frameworks.
 
