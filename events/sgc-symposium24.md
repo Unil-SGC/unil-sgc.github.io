@@ -68,13 +68,17 @@ TBA
 
 :bulb: Participants interested in joining this workshop will be required to register for that in order to have access to the GPU compute resources for the workshop.
 
-#### OSiRES ([Ingensand Jens](https://people.hes-so.ch/de/profile/2912116448-jens-ingensand))
-While modern Spatial Data Infrastructures (e.g. swisstopo or INSPIRE) use interoperable web services and open standards to serve large datasets, they lack the ability to retrieve geodata as it existed at a specific point in time, refer to its status at that instant, and ensure its immutability. 
-OSIReS is a project co-financed by swissuniversities in the frame of its Programme Open Science I, Phase B, that aims at tackle this issue. In this 
-workshop, after presenting the project during the Keynote session, we will demonstrate and discuss the needs and challenges regarding the utilization of geospatial webservices for reproducible research.
+#### OSiRES
+Demonstrating the utilisation of geospatial webservices for reproducible research
+
+**Details:** While modern Spatial Data Infrastructures (e.g. swisstopo or INSPIRE) use interoperable web services and open standards to serve large datasets, they lack the ability to retrieve geodata as it existed at a specific point in time, refer to its status at that instant, and ensure its immutability.
+OSIReS is a project co-financed by swissuniversities in the frame of its Programme Open Science I, Phase B, that aims at tackle this issue. In this
+workshop, after presenting the project during the Keynote session, we will demonstrate and discuss the needs and challenges regarding the utilisation of geospatial webservices for reproducible research.
+
+**Instructor:** [Ingensand Jens](https://people.hes-so.ch/de/profile/2912116448-jens-ingensand)
 
 #### Ageospatial
-Building the future of GeoForge: An interactive workshop on Generative AI usage in geospatial data assisted disaster management
+Building the future of GeoForge: An interactive workshop on Generative AI usage in geospatial data assisted disaster management.
 
 **Details:** Participants will have the opportunity to test the GeoForge proof of concept. Ageospatial aims to gather valuable feedback and collaborate on ideas on how this future platform can provide real value in tackling current challenges, especially in disaster management and risk fields. We'll present use cases and invite participants to propose concrete improvements and suggest architectures for new AI frameworks such as Agentic AI systems, RAG concepts, and LangChain frameworks.
 
