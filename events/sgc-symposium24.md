@@ -35,7 +35,7 @@ This symposium aims to provide a dynamic venue for showcasing research, fosterin
 | 10:00 - 10:30    | Welcome message by [Céline Rozenblat](https://applicationspub.unil.ch/interpub/noauth/php/Un/UnPers.php?PerNum=1048878&LanCode=37) - Vice Dean FGSE |
 |                  |  **Keynote presentations** ([Amphipole 210](https://planete.unil.ch/?local=POL-210)) |
 | 10:30 - 11:15    | **Reproducibility in Geospatial Sector: Needs and Challenges** \\ _[CC-OS](https://www.supsi.ch/en/cc-os), [Massimiliano Cannata](https://www.supsi.ch/massimiliano-cannata)_ |
-| 11:15 - 12:00    | Title TBA \\ _[Nvidia Research](https://www.nvidia.com/en-us/), [Boris Bonev](https://research.nvidia.com/person/boris-bonev)_ |
+| 11:15 - 12:00    | **Digital Twins of the Atmosphere in the Era of Machine Learning** \\ _[Nvidia Research](https://www.nvidia.com/en-us/), [Boris Bonev](https://research.nvidia.com/person/boris-bonev)_ |
 | 12:00 - 12:45    | **AI in Environmental Sciences at the SDSC** \\ _[SDSC](https://www.datascience.ch/), [Ekaterina Krymova](https://www.datascience.ch/people/ekaterina-krymova)_ |
 | 12:45 - 13:45    | :spaghetti: Lunch break                                      |
 |                  |  **Workshops** ([Geopolis](https://planete.unil.ch/?batiment=GEO)) |
