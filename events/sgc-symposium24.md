@@ -10,17 +10,19 @@ tags = ["Event"]
 
 ## General information
 
-The Swiss Geocomputing Centre (SGC) at the Faculty of Geosciences and Environment (FGSE), University of Lausanne (Unil), is organising a 2-day symposium, themed **Bridging Modelling and Data Sciences in the geosciences**. This event will provide a platform for students and researchers to showcase their work and connect with actors from the public private sectors. It aims to cultivate dialogue and potential collaborations in applied computational sciences within the geosciences.
+The Swiss Geocomputing Centre (SGC) at the Faculty of Geosciences and Environment (FGSE), University of Lausanne (Unil), is organising a 2-day symposium, themed **Bridging Modelling and Data Sciences in the geosciences** on **21 and 22 November 2024**, at Unil. This event will provide a platform for students and researchers to showcase their work and connect with actors from the public private sectors. It aims to cultivate dialogue and potential collaborations in applied computational sciences within the geosciences.
 
-The symposium will explore intersections across various computational disciplines, including geo-modelling, geospatial data sciences, GIS, and high-performance computing, with a focus on differentiable modelling, AI/ML, GPU-based processing, and effective research practices in reproducibility and open-source development. The 2-day symposium will be held in Autumn 2024, November 21 and 22, at Unil.
+> :bulb: **Note:** The event is free but [**registration is mandatory**](#registration)
 
-This symposium aims to unite researchers and institutions through computational/spatial modelling expertise and collaborative opportunities. The symposium will further expand the on-going activities to include external experts. It will feature presentations, devote time for idea exchanges, and offer short courses led by Nvidia, OSiRES and Ageospatial, focusing on geospatial sciences and GPU computing.
+The symposium will explore intersections across various computational disciplines, including geo-modelling, geospatial data sciences, GIS, and high-performance computing, with a focus on differentiable modelling, AI/ML, GPU-based processing, and effective research practices in reproducibility and open-source development. It further aims to unite researchers and institutions through computational/spatial modelling expertise and collaborative opportunities. The symposium will further expand the on-going activities to include external experts. It will feature presentations, devote time for idea exchanges, and offer short courses led by Nvidia, OSiRES and Ageospatial, focusing on geospatial sciences and GPU computing.
 
-:mag_right: **Location:** University of Lausanne (Amphipole, Geopolis, IDHEAP)
-
-📅 **Dates:** 21-22 November 2024
-
-[:memo: Go to **Registration**](#registration)
+> **Infos**
+>
+> :mag_right: **Location:** University of Lausanne (Amphipole, Geopolis, IDHEAP)
+>
+> 📅 **Dates:** 21-22 November 2024
+>
+> :memo: **Registration:** [Link to register](#registration)
 
 
 ## Program
@@ -32,9 +34,9 @@ This symposium aims to unite researchers and institutions through computational/
 | 9:30 - 10:00     | :coffee: Registration with coffee ([Amphipole 210](https://planete.unil.ch/?local=POL-210))         |
 | 10:00 - 10:30    | Welcome message by [Céline Rozenblat](https://applicationspub.unil.ch/interpub/noauth/php/Un/UnPers.php?PerNum=1048878&LanCode=37) - Vice Dean FGSE |
 |                  |  **Keynote presentations** ([Amphipole 210](https://planete.unil.ch/?local=POL-210)) |
-| 10:30 - 11:15    | "Reproducibility in Geospatial Sector: Needs and Challenges" \\ _[CC-OS](https://www.supsi.ch/en/cc-os), [Massimiliano Cannata](https://www.supsi.ch/massimiliano-cannata)_ |
+| 10:30 - 11:15    | **Reproducibility in Geospatial Sector: Needs and Challenges** \\ _[CC-OS](https://www.supsi.ch/en/cc-os), [Massimiliano Cannata](https://www.supsi.ch/massimiliano-cannata)_ |
 | 11:15 - 12:00    | Title TBA \\ _[Nvidia Research](https://www.nvidia.com/en-us/), [Boris Bonev](https://research.nvidia.com/person/boris-bonev)_ |
-| 12:00 - 12:45    | Title TBA \\ _[SDSC](https://www.datascience.ch/), Speaker TBA_ |
+| 12:00 - 12:45    | **AI in Environmental Sciences at the SDSC** \\ _[SDSC](https://www.datascience.ch/), Ekaterina Krymova_ |
 | 12:45 - 13:45    | :spaghetti: Lunch break                                      |
 |                  |  **Workshops** ([Geopolis](https://planete.unil.ch/?batiment=GEO)) |
 | 14:00 - 17:30    | [Nvidia](#nvidia) ([Geopolis 2121](https://planete.unil.ch/?local=GEO-2121)) \\ [OSiRES](#osires)/[Ageospatial](#ageospatial) ([Geopolis 2129](https://planete.unil.ch/?local=GEO-2129)) |
@@ -46,14 +48,14 @@ This symposium aims to unite researchers and institutions through computational/
 | **Time**         | **Event**                                                 |
 | ---------------- | --------------------------------------------------------- |
 | 9:00 - 9:15      | :coffee: Welcome with coffee  ([IDHEAP](https://planete.unil.ch/?batiment=IDP))                    |
-| 9:15 - 9:30      | "Reproducible Science in Publications - Example from the [GMD Journal](https://www.geoscientific-model-development.net/)" \\ _Unil - SGC, [Ludovic Räss](https://github.com/luraess)_ |
+| 9:15 - 9:30      | **Reproducible Science in Publications - Example from the [GMD Journal](https://www.geoscientific-model-development.net/)** \\ _Unil - SGC, [Ludovic Räss](https://github.com/luraess)_ |
 |                  |  **Talks** ([IDHEAP](https://planete.unil.ch/?batiment=IDP)) |
-| 9:30 - 10:00     | "GeoForge: Making Geospatial Data Speak to AI" \\ _[Ageospatial](https://www.ageospatial.com/), Maaz Sheikh_ |
+| 9:30 - 10:00     | **GeoForge: Making Geospatial Data Speak to AI** \\ _[Ageospatial](https://www.ageospatial.com/), Maaz Sheikh_ |
 | 10:00 - 10:30    | Title TBA \\ _[Zenodo](https://zenodo.org/), Speaker TBA_ |
-| 10:30 - 11:00    | Title TBA \\ _[Resilio](https://www.resilio.com/), Speaker TBA_ |
+| 10:30 - 11:00    | **GreenIT - challenges and best practices for geocomputing sector** \\ _[Resilio](https://www.resilio.com/), Rosendo Mañas Faura_ |
 | 11:00 - 11:30    | :coffee: Coffee break                                     |
-| 11:30 - 12:00    | Title TBA \\ _[ECCE](https://applicationspub.unil.ch/interpub/noauth/php/Un/UnUnite.php?UnId=394&LanCode=8), [Erwan Koch](https://applicationspub.unil.ch/interpub/noauth/php/Un/UnPers.php?PerNum=1263941&LanCode=8)_ |
-| 12:00 - 12:30    | "Geodata Analysis & Data-Driven Solutions for Swiss Insurance: EXA Experience" \\ _[ECA](https://www.eca-vaud.ch/), [Carmen Vega](https://ch.linkedin.com/in/carmen-vega-orozco-a681b424)_ |
+| 11:30 - 12:00    | **Geocomputational needs for climate extremes modeling** \\ _[ECCE](https://applicationspub.unil.ch/interpub/noauth/php/Un/UnUnite.php?UnId=394&LanCode=8), [Erwan Koch](https://applicationspub.unil.ch/interpub/noauth/php/Un/UnPers.php?PerNum=1263941&LanCode=8)_ |
+| 12:00 - 12:30    | **Geodata Analysis & Data-Driven Solutions for Swiss Insurance: EXA Experience** \\ _[ECA](https://www.eca-vaud.ch/), [Carmen Vega](https://ch.linkedin.com/in/carmen-vega-orozco-a681b424)_ |
 |                  |  **Poster session** ([IDHEAP](https://planete.unil.ch/?batiment=IDP)) |
 | 12:30 - 13:30    | Poster 2-minute madness                                   |
 | 13:30 - 15:30    | Poster session & :hamburger: finger food                  |
