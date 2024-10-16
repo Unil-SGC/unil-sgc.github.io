@@ -14,7 +14,7 @@ The Swiss Geocomputing Centre (SGC) invites you to the symposium **Bridging Mode
 
 The event will feature engaging talks and workshops on topics tackling reproducibility in the geoscientific domain, integrating geospatial data into ML/AI workflows, geocomputation for weather and climate modelling, applications in the insurance domain, and green IT, amongst others.
 
-This symposium aims to provide a dynamic venue for showcasing research, fostering interdisciplinary dialogue, and building connections between academia, industry, and public sectors. We welcomes participants at all stages of their career and invite you to contribute in a poster session.
+This symposium aims to provide a dynamic venue for showcasing research, fostering interdisciplinary dialogue, and building connections between academia, industry, and public sectors. We welcome participants at all stages of their career and invite you to contribute in a poster session.
 
 > **Infos**
 >
