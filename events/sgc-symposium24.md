@@ -55,7 +55,7 @@ This symposium aims to provide a dynamic venue for showcasing research, fosterin
 | 10:30 - 11:00    | **GreenIT - challenges and best practices for geocomputing sector** \\ _[Resilio](https://www.resilio.com/), Rosendo Mañas Faura_ |
 | 11:00 - 11:30    | :coffee: Coffee break                                     |
 | 11:30 - 12:00    | **Geocomputational needs for climate extremes modeling** \\ _[ECCE](https://applicationspub.unil.ch/interpub/noauth/php/Un/UnUnite.php?UnId=394&LanCode=8), [Erwan Koch](https://applicationspub.unil.ch/interpub/noauth/php/Un/UnPers.php?PerNum=1263941&LanCode=8)_ |
-| 12:00 - 12:30    | **Geodata Analysis & Data-Driven Solutions for Swiss Insurance: EXA Experience** \\ _[ECA](https://www.eca-vaud.ch/), [Carmen Vega](https://ch.linkedin.com/in/carmen-vega-orozco-a681b424)_ |
+| 12:00 - 12:30    | **Geodata Analysis & Data-Driven Solutions for Swiss Insurance: ECA Experience** \\ _[ECA](https://www.eca-vaud.ch/), [Carmen Vega](https://ch.linkedin.com/in/carmen-vega-orozco-a681b424)_ |
 |                  |  **Poster session** ([IDHEAP](https://planete.unil.ch/?batiment=IDP)) |
 | 12:30 - 13:30    | Poster 2-minute madness                                   |
 | 13:30 - 15:30    | Poster session & :hamburger: finger food                  |
