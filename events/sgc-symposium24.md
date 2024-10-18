@@ -70,7 +70,7 @@ Unlocking the Power of Deep Learning for Weather Forecasting: A Hands-on Worksho
 
 **Instructor:** [Abouzar Ghasemi]()
 
-:bulb: Participants interested in joining this workshop will be required to register for that in order to have access to the GPU compute resources for the workshop.
+> :bulb: Participants interested in joining this workshop will be required to register for that in order to have access to the GPU compute resources for the workshop.
 
 #### OSiRES
 Demonstrating the utilisation of geospatial webservices for reproducible research
