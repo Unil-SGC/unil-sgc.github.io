@@ -29,7 +29,7 @@ This symposium aims to provide a dynamic venue for showcasing research, fosterin
 >
 > 📅 **Dates:** 21-22 November 2024
 >
-> :memo: **Registration:** [Link to register](#registration) _(the event is free but [registration is mandatory](#registration))_
+> ✅ **Registration:** [Link to register](#registration) _(the event is free but [registration is mandatory](#registration))_
 
 
 ## Program
@@ -45,7 +45,7 @@ This symposium aims to provide a dynamic venue for showcasing research, fosterin
 | 11:15 - 12:00    | **Digital Twins of the Atmosphere in the Era of Machine Learning** \\ _[Nvidia Research](https://www.nvidia.com/en-us/), [Boris Bonev](https://research.nvidia.com/person/boris-bonev)_ |
 | 12:00 - 12:45    | **AI in Environmental Sciences at the SDSC** \\ _[SDSC](https://www.datascience.ch/), [Ekaterina Krymova](https://www.datascience.ch/people/ekaterina-krymova)_ |
 | 12:45 - 13:45    | :spaghetti: Lunch break                                      |
-|                  |  **Workshops** ([Geopolis](https://planete.unil.ch/?batiment=GEO)) |
+|                  | :computer: **Workshops** ([Geopolis](https://planete.unil.ch/?batiment=GEO)) |
 | 14:00 - 17:30    | [Nvidia](#nvidia) ([Geopolis 2121](https://planete.unil.ch/?local=GEO-2121)) \\ [OSiRES](#osires)/[Ageospatial](#ageospatial) ([Geopolis 2129](https://planete.unil.ch/?local=GEO-2129)) |
 | 17:30 - 18:30    | :beer: Aperitif                                          |
 
@@ -63,7 +63,7 @@ This symposium aims to provide a dynamic venue for showcasing research, fosterin
 | 11:00 - 11:30    | :coffee: Coffee break                                     |
 | 11:30 - 12:00    | **Geocomputational needs for climate extremes modeling** \\ _[ECCE](https://applicationspub.unil.ch/interpub/noauth/php/Un/UnUnite.php?UnId=394&LanCode=8), [Erwan Koch](https://applicationspub.unil.ch/interpub/noauth/php/Un/UnPers.php?PerNum=1263941&LanCode=8)_ |
 | 12:00 - 12:30    | **Geodata Analysis & Data-Driven Solutions for Swiss Insurance: ECA Experience** \\ _[ECA](https://www.eca-vaud.ch/), [Carmen Vega](https://ch.linkedin.com/in/carmen-vega-orozco-a681b424)_ |
-|                  |  **Poster session** ([IDHEAP](https://planete.unil.ch/?batiment=IDP)) |
+|                  | **Poster session** ([IDHEAP](https://planete.unil.ch/?batiment=IDP)) |
 | 12:30 - 13:30    | Poster 2-minute madness                                   |
 | 13:30 - 15:30    | Poster session & :hamburger: finger food                  |
 | 15:30 - 16:00    | Closing remarks                                           |
@@ -100,7 +100,7 @@ Building the future of GeoForge: An interactive workshop on Generative AI usage 
 The symposium is completely free of charge. On site, you will be able to attend whichever conferences
 you like, but for logistical reasons please indicate through the form which sessions you are interested in.
 
-:memo: **Register here:** (Link available upon registration's opening)
+✅ **Register here:** (Link available upon registration's opening)
 
 ## Posters
 
