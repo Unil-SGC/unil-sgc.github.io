@@ -8,6 +8,13 @@ reading_time = "4-minute read"
 tags = ["Event"]
 +++
 
+~~~
+<br>
+<center>
+    <img src="../../assets/images/UNIL_Flyer_web_HD.png" title="info_flyer" alt="info_flyer" width="100%">
+</center>
+~~~
+
 ## General information
 
 The Swiss Geocomputing Centre (SGC) invites you to the symposium **Bridging Modelling and Data Sciences in the Geosciences**, taking place on **November 21-22, 2024** at the University of Lausanne.
