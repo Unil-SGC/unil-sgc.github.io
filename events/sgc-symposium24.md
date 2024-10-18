@@ -64,7 +64,11 @@ This symposium aims to provide a dynamic venue for showcasing research, fosterin
 ### Workshops - Thursday, 21 November 2024
 
 #### Nvidia
-TBA
+Unlocking the Power of Deep Learning for Weather Forecasting: A Hands-on Workshop with Modulus
+
+**Details:** The workshop provides a step-by-step overview of the fundamentals of deep neural networks, walks attendees through the hands-on experience of building and improving deep learning models applied to weather forecast using a framework that uses the fundamental laws of physics to model the behavior of complex systems, and enables attendees to visualize the physically accurate outputs of the trained model in near real-time.
+
+**Instructor:** [Abouzar Ghasemi]()
 
 :bulb: Participants interested in joining this workshop will be required to register for that in order to have access to the GPU compute resources for the workshop.
 
