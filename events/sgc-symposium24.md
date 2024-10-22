@@ -29,7 +29,7 @@ This symposium aims to provide a dynamic venue for showcasing research, fosterin
 >
 > 📅 **Dates:** 21-22 November 2024
 >
-> ✅ **Registration:** [Link to register](#registration) _(the event is free but [registration is mandatory](#registration))_
+> ✅ **Registration:** [Register here](#registration) _(the event is free but [registration is mandatory](#registration))_
 
 
 ## Program
@@ -97,10 +97,10 @@ Building the future of GeoForge: An interactive workshop on Generative AI usage 
 
 ## Registration
 
-The symposium is completely free of charge. On site, you will be able to attend whichever conferences
+The symposium is completely free of charge. On site, you will be able to attend any sessions
 you like, but for logistical reasons please indicate through the form which sessions you are interested in.
 
-✅ **Register here:** (Link available upon registration's opening)
+✅ **[Register here :point_left:](https://events.unil.ch/register/377)**
 
 ## Posters
 
