@@ -11,7 +11,7 @@ tags = ["Event"]
 ~~~
 <br>
 <center>
-    <img src="../../assets/images/UNIL_Flyer_web_HD.png" title="info_flyer" alt="info_flyer" width="100%">
+    <img src="../../assets/images/sgc_symp24_banner.png" title="info_flyer" alt="info_flyer" width="100%">
 </center>
 ~~~
 
@@ -107,3 +107,13 @@ you like, but for logistical reasons please indicate through the form which sess
 If you wish to present your past or ongoing research with a poster on Friday afternoon, please indicate so in the registration form. There are still many slots available for poster presentations. We encourage you to sign up and to re-use a poster you did present at a recent conference or event!
 
 The poster session will be divided into two parts. First, each presenter will give a 2-minute presentation on a screen to introduce their research and provide context. For the remainder of the afternoon, attendees will be free to walk around, ask questions, and create network connections.
+
+## Announce
+
+~~~
+<br>
+<center>
+    <img src="../../assets/images/sgc_symp24_Flyer_1.png" title="info_flyer" alt="info_flyer" width="90%">
+    <img src="../../assets/images/sgc_symp24_Flyer_2.png" title="info_flyer" alt="info_flyer" width="90%">
+</center>
+~~~
