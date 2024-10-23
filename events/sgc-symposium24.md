@@ -58,7 +58,7 @@ This symposium aims to provide a dynamic venue for showcasing research, fosterin
 | 9:15 - 9:30      | **Reproducible Science in Publications - Example from the [GMD Journal](https://www.geoscientific-model-development.net/)** \\ _Unil - SGC, [Ludovic Räss](https://github.com/luraess)_ |
 |                  |  **Talks** ([IDHEAP](https://planete.unil.ch/?batiment=IDP)) |
 | 9:30 - 10:00     | **GeoForge - Making Geospatial Data Speak to AI** \\ _[Ageospatial](https://www.ageospatial.com/), Maaz Sheikh_ |
-| 10:00 - 10:30    | **Zenodo for geosciences** \\ _[Zenodo](https://zenodo.org/), [Lars Holm Nielsen](https://sparks.cern/nielsen-lars), Open Science at CERN_ |
+| 10:00 - 10:30    | **Zenodo for geosciences** \\ _[Zenodo](https://zenodo.org/), [Lars Holm Nielsen](https://sparks.cern/nielsen-lars) (Head Open Science at CERN)_ |
 | 10:30 - 11:00    | **GreenIT - challenges and best practices for geocomputing sector** \\ _[Resilio](https://www.resilio.com/), Rosendo Mañas Faura_ |
 | 11:00 - 11:30    | :coffee: Coffee break                                     |
 | 11:30 - 12:00    | **Geocomputational needs for climate extremes modeling** \\ _[ECCE](https://applicationspub.unil.ch/interpub/noauth/php/Un/UnUnite.php?UnId=394&LanCode=8), [Erwan Koch](https://applicationspub.unil.ch/interpub/noauth/php/Un/UnPers.php?PerNum=1263941&LanCode=8)_ |
