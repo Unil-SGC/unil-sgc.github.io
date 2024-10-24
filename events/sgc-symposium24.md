@@ -19,9 +19,9 @@ tags = ["Event"]
 
 The Swiss Geocomputing Centre (SGC) invites you to the symposium **Bridging Modelling and Data Sciences in the Geosciences**, taking place on **November 21-22, 2024** at the University of Lausanne.
 
-The event will feature engaging talks and workshops on topics tackling reproducibility in the geoscientific domain, integrating geospatial data into ML/AI workflows, geocomputation for weather and climate modelling, applications in the insurance domain, and green IT, amongst others.
+The event will feature engaging [talks and workshops](#program) on topics tackling reproducibility in the geoscientific domain, integrating geospatial data into ML/AI workflows, geocomputation for weather and climate modelling, applications in the insurance domain, and green IT, amongst others.
 
-This symposium aims to provide a dynamic venue for showcasing research, fostering interdisciplinary dialogue, and building connections between academia, industry, and public sectors. We welcome participants at all stages of their career and invite you to contribute in a poster session.
+This symposium aims to provide a dynamic venue for showcasing research, fostering interdisciplinary dialogue, and building connections between academia, industry, and public sectors. We welcome participants at all stages of their career (_students - Masters only_) and invite you to contribute in a [poster session](#posters).
 
 > **Infos**
 >
@@ -29,7 +29,7 @@ This symposium aims to provide a dynamic venue for showcasing research, fosterin
 >
 > 📅 **Dates:** 21-22 November 2024
 >
-> ✅ **Registration:** [Register here](#registration) _(the event is free but [registration is mandatory](#registration))_
+> ✅ **Registration (deadline 12 Nov. 24):** [Register here](#registration) _(the event is free but [registration is mandatory](#registration))_
 
 
 ## Program
@@ -100,11 +100,19 @@ Building the future of GeoForge: An interactive workshop on Generative AI usage 
 The symposium is completely free of charge. On site, you will be able to attend any sessions
 you like, but for logistical reasons please indicate through the form which sessions you are interested in.
 
-✅ **[Register here :point_left:](https://events.unil.ch/register/377)**
+
+✅ [**Register here** (deadline 12 Nov. 24) :point_left:](https://events.unil.ch/register/377)
+
+> :bulb: **Master-level students only.** Note that registration is only open to students at the master-level and beyond.
+>
+> :question: **Questions.** For any further question about the event, contact
+~~~
+<a href="mailto:geocomputing@unil.ch">geocomputing@unil.ch</a>
+~~~
 
 ## Posters
 
-If you wish to present your past or ongoing research with a poster on Friday afternoon, please indicate so in the registration form. There are still many slots available for poster presentations. We encourage you to sign up and to re-use a poster you did present at a recent conference or event!
+If you wish to present your past or ongoing research with a poster on Friday afternoon, please indicate so in the registration form. There are still many slots available for poster presentations. **We encourage you to sign up and to re-use a poster you did present at a recent conference or event!**
 
 The poster session will be divided into two parts. First, each presenter will give a 2-minute presentation on a screen to introduce their research and provide context. For the remainder of the afternoon, attendees will be free to walk around, ask questions, and create network connections.
 
