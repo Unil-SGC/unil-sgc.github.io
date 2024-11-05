@@ -25,7 +25,7 @@ This symposium aims to provide a dynamic venue for showcasing research, fosterin
 
 > **Infos**
 >
-> :mag_right: **Location:** University of Lausanne (Amphipole, Geopolis, IDHEAP) -- on-site participation "only"
+> :mag_right: **Location:** University of Lausanne (Amphipole, Geopolis, IDHEAP) - **on-site event**
 >
 > 📅 **Dates:** 21-22 November 2024
 >
