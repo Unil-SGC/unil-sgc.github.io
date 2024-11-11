@@ -29,7 +29,7 @@ This symposium aims to provide a dynamic venue for showcasing research, fosterin
 >
 > 📅 **Dates:** 21-22 November 2024
 >
-> ✅ **Registration (deadline 12 Nov. 24):** [Register here](#registration) _(the event is free but [registration is mandatory](#registration))_
+> ✅ **Registration (deadline extended to 15 Nov. 24):** [Register here](#registration) _(the event is free but [registration is mandatory](#registration))_
 
 
 ## Program
@@ -57,7 +57,7 @@ This symposium aims to provide a dynamic venue for showcasing research, fosterin
 | 9:00 - 9:15      | :coffee: Welcome with coffee  ([IDHEAP](https://planete.unil.ch/?batiment=IDP))                    |
 | 9:15 - 9:30      | **Reproducible Science in Publications - Example from the [GMD Journal](https://www.geoscientific-model-development.net/)** \\ _Unil - SGC, [Ludovic Räss](https://github.com/luraess)_ |
 |                  |  **Talks** ([IDHEAP](https://planete.unil.ch/?batiment=IDP)) |
-| 9:30 - 10:00     | **GeoForge - Making Geospatial Data Speak to AI** \\ _[Ageospatial](https://www.ageospatial.com/), Maaz Sheikh_ |
+| 9:30 - 10:00     | **GeoForge - Making Geospatial Data Speak to AI** \\ _[Ageospatial](https://www.ageospatial.com/), [Maaz Sheikh](https://www.linkedin.com/in/maaz-sheikh99/)_ |
 | 10:00 - 10:30    | **Zenodo for geosciences** \\ _[Zenodo](https://zenodo.org/), [Lars Holm Nielsen](https://sparks.cern/nielsen-lars) (Head Open Science at CERN)_ |
 | 10:30 - 11:00    | **GreenIT - challenges and best practices for geocomputing sector** \\ _[Resilio](https://www.resilio.com/), Rosendo Mañas Faura_ |
 | 11:00 - 11:30    | :coffee: Coffee break                                     |
@@ -65,7 +65,7 @@ This symposium aims to provide a dynamic venue for showcasing research, fosterin
 | 12:00 - 12:30    | **Geodata Analysis & Data-Driven Solutions for Swiss Insurance: ECA Experience** \\ _[ECA](https://www.eca-vaud.ch/), [Carmen Vega](https://ch.linkedin.com/in/carmen-vega-orozco-a681b424)_ |
 |                  | **Poster session** ([IDHEAP](https://planete.unil.ch/?batiment=IDP)) |
 | 12:30 - 13:30    | Poster 2-minute madness                                   |
-| 13:30 - 15:30    | Poster session & :hamburger: finger food                  |
+| 13:30 - 15:30    | [Poster session](#posters) & :hamburger: finger food                  |
 | 15:30 - 16:00    | Closing remarks                                           |
 
 ### Workshops - Thursday, 21 November 2024
@@ -101,10 +101,8 @@ The symposium is completely free of charge. On site, you will be able to attend 
 you like, but for logistical reasons please indicate through the form which sessions you are interested in.
 
 
-✅ [**Register here** (deadline 12 Nov. 24) :point_left:](https://events.unil.ch/register/377)
+✅ [**Register here** (deadline extended to 15 Nov. 24) :point_left:](https://events.unil.ch/register/377)
 
-> :bulb: **Master-level students only.** Note that registration is only open to students at the master-level and beyond.
->
 > :question: **Questions.** For any further question about the event, contact
 ~~~
 <a href="mailto:geocomputing@unil.ch">geocomputing@unil.ch</a>
@@ -112,7 +110,11 @@ you like, but for logistical reasons please indicate through the form which sess
 
 ## Posters
 
-If you wish to present your past or ongoing research with a poster on Friday afternoon, please indicate so in the registration form. There are still many slots available for poster presentations. **We encourage you to sign up and to re-use a poster you did present at a recent conference or event!**
+If you wish to present your past or ongoing research with a poster on Friday afternoon, please indicate so in the registration form. There are still many slots available for poster presentations.
+
+> :bulb: **We encourage you to sign up and to re-use a poster you did present at a recent conference or event!**
+>
+> Poster format: A0 portrait (other format could be accommodated as well)
 
 The poster session will be divided into two parts. First, each presenter will give a 2-minute presentation on a screen to introduce their research and provide context. For the remainder of the afternoon, attendees will be free to walk around, ask questions, and create network connections.
 
