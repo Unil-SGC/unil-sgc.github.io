@@ -86,7 +86,7 @@ Demonstrating the utilisation of geospatial webservices for reproducible researc
 OSIReS is a project co-financed by swissuniversities in the frame of its Programme Open Science I, Phase B, that aims at tackle this issue. In this
 workshop, after presenting the project during the Keynote session, we will demonstrate and discuss the needs and challenges regarding the utilisation of geospatial webservices for reproducible research.
 
-**Instructor:** [Ingensand Jens](https://people.hes-so.ch/de/profile/2912116448-jens-ingensand)
+**Instructor:** [Jens Ingensand](https://people.hes-so.ch/de/profile/2912116448-jens-ingensand)
 
 #### Ageospatial
 Building the future of GeoForge: An interactive workshop on Generative AI usage in geospatial data assisted disaster management.
