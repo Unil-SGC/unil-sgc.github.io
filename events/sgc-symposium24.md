@@ -91,6 +91,12 @@ workshop, after presenting the project during the Keynote session, we will demon
 #### Ageospatial
 Building the future of GeoForge: An interactive workshop on Generative AI usage in geospatial data assisted disaster management.
 
+~~~
+<center>
+    <img src="../../assets/images/SGC_symp24_ageospatial.png" title="Ageospatial" alt="Ageospatial" width="90%">
+</center>
+~~~
+
 **Details:** Participants will have the opportunity to test the GeoForge proof of concept. Ageospatial aims to gather valuable feedback and collaborate on ideas on how this future platform can provide real value in tackling current challenges, especially in disaster management and risk fields. We'll present use cases and invite participants to propose concrete improvements and suggest architectures for new AI frameworks such as Agentic AI systems, RAG concepts, and LangChain frameworks.
 
 **Instructor:** [Maaz Sheikh](https://www.linkedin.com/in/maaz-sheikh99/)
