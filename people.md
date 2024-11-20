@@ -8,13 +8,13 @@ header = "People"
 
 > Marj Tonini is a spatial data scientist with a strong interest on geospatial modelling for risk assessment, mainly related to wildfires and landslides. Marj's research focuses on the development of innovative approaches to enable efficient learning from complex environmental datasets.
 
-[**Christian Kaiser**](https://igd.unil.ch/ckaiser/en/presentation/) Vice-director
-
-> Christian Kaiser is a specialist in geovisualisation, quantitative geography, GIS, geocomputation and data science. His research interests include topics of «Computational GIScience» and dynamic and interactive visualisation.
-
 [**Ludovic Räss**](https://github.com/luraess) Vice-director
 
 > Ludovic is a computational geoscientist with research interests focussing on the development and application of high-performance and scalable software tools to further understand the localisation of flow and deformation in ice and porous rocks.
+
+[**Christian Kaiser**](https://igd.unil.ch/ckaiser/en/presentation/) Vice-director
+
+> Christian Kaiser is a specialist in geovisualisation, quantitative geography, GIS, geocomputation and data science. His research interests include topics of «Computational GIScience» and dynamic and interactive visualisation.
 
 
 ### Scientific committee
@@ -45,7 +45,7 @@ header = "People"
 
 [**Céline Rozenblat**](https://applicationspub.unil.ch/interpub/noauth/php/Un/UnPers.php?PerNum=1048878&LanCode=8&menu=coord)
 
-> Céline's research is widely directed on the relations between evolutions of powers and values and networks dynamics into systems of territories. In order to develop these topics in a comparative point of view, she built many large database on European cities and on networks since 1987.
+> Céline studies the evolution of systems of cities in globalization at the world scales, with large comparative urban databases, mapping and visualizing the socio-economic networks of cities. Since 2016, she has also developed research on urban health systems and specifically a large MOOC with 30 interveners on COURSERA. In the complexity of multi-level urban systems, she uses the theoretical framework of "panarchy" to highlight the resilience properties of cities. She uses methodologies from complex systems science in collaboration with physicists and computer scientists to bring new forms of intelligibility to global urban dynamics.
 
 ### Assistants
 
