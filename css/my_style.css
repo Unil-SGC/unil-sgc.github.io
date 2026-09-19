@@ -1,18 +1,40 @@
+/* Landing hero band.
+   The image sits in a pseudo-element so it can use `cover`: it crops to the
+   band instead of being squashed to fit, which is what `background-size:
+   100% <height>` was doing (the photo is 2891x720, so forcing full width with
+   a clamped height distorted it more the wider the screen got). */
+
 .landing {
-  background-image: url('../assets/images/switch-light.jpg');
-  background-repeat: no-repeat;
-  background-position: top;
-/*  background-size: 100% clamp(15vw, 250px, 22vw);*/
-  background-size: 100% clamp(15vw, 350px, 22vw);
+  position: relative;
 }
 
-
-.colorscheme-dark .landing {
-  background-image: url('../assets/images/switch.jpg');
+.landing::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: clamp(140px, 20vw, 320px);
+  background-image: url('../assets/images/switch-light.jpg');
   background-repeat: no-repeat;
-  background-position: top;
-/*  background-size: 100% clamp(15vw, 250px, 22vw);*/
-  background-size: 100% clamp(15vw, 350px, 22vw);
+  background-position: center top;
+  background-size: cover;
+  z-index: -1;
+  pointer-events: none;
+  /* Fade the bottom edge into the page background instead of cutting the
+     photo off on a hard line. */
+  -webkit-mask-image: linear-gradient(to bottom, #000 60%, transparent 100%);
+  mask-image: linear-gradient(to bottom, #000 60%, transparent 100%);
+}
+
+.colorscheme-dark .landing::before {
+  background-image: url('../assets/images/switch.jpg');
+}
+
+@media (prefers-color-scheme: dark) {
+  body.colorscheme-auto .landing::before {
+    background-image: url('../assets/images/switch.jpg');
+  }
 }
 
 /*.navigation .navigation-title {
@@ -33,3 +55,88 @@
 
 .colorscheme-dark .navigation a {color: rgb(250, 250, 250); }
 .navigation a {color: rgb(170, 170, 170); }*/
+
+/* Temporary "under re-construction" notice on the landing page */
+
+.about .notice {
+  width: 100%;
+  max-width: 60rem;
+  margin: 3rem auto 1rem;
+  padding: 2rem 2.5rem;
+  border: 1px solid #dadada;
+  border-left: 4px solid #1565c0;
+  border-radius: 4px;
+  background-color: var(--block-background, #f4f0ec);
+  text-align: left;
+}
+
+/* `.centered` is a flex container, so `.about` would otherwise be sized from
+   the notice's max-content width (~60rem) and overflow narrow screens. */
+.content .container.centered {
+  min-width: 0;
+}
+
+.centered .about {
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+}
+
+.about .notice h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.9rem;
+}
+
+.about .notice p {
+  margin: 0 0 1rem;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+.about .notice p:last-of-type {
+  margin-bottom: 0;
+}
+
+.about .notice ul.notice-links {
+  margin: 2rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.about .notice ul.notice-links li {
+  display: block;
+  margin: 0 0 .8rem;
+}
+
+.about .notice ul.notice-links li:last-child {
+  margin-bottom: 0;
+}
+
+.about .notice ul.notice-links li a {
+  margin: 0;
+  font-size: 1.6rem;
+  text-transform: none;
+  color: #1565c0;
+}
+
+.colorscheme-dark .about .notice {
+  border-color: #424242;
+  border-left-color: #42a5f5;
+  background-color: #2b2b2b;
+}
+
+.colorscheme-dark .about .notice ul.notice-links li a {
+  color: #42a5f5;
+}
+
+@media (prefers-color-scheme: dark) {
+  body.colorscheme-auto .about .notice {
+    border-color: #424242;
+    border-left-color: #42a5f5;
+    background-color: #2b2b2b;
+  }
+  body.colorscheme-auto .about .notice ul.notice-links li a {
+    color: #42a5f5;
+  }
+}
