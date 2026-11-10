@@ -19,7 +19,7 @@ Tools, templates and material shared by the community are hosted on the [Unil-SG
 
 ## Julia GPU development
 
-Ongoing development related to the [GPU4GEO](https://ptsolvers.github.io/GPU4GEO/) PASC project is hosted on these organisations:
+Ongoing development related to the [GPU4GEO](https://gpu4geo.org) PASC project is hosted on these organisations:
 
 - [PTsolvers](https://github.com/PTsolvers) organisation
 - [JuliaGeodynamics](https://github.com/JuliaGeodynamics) organisation
