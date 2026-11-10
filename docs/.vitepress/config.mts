@@ -45,31 +45,28 @@ export default defineConfig({
       { text: 'Centre', link: CENTRE_URL },
     ],
 
-    sidebar: {
-      '/compute/': [
-        {
-          text: 'Compute',
-          items: [
-            { text: 'Overview and support', link: '/compute/' },
-            { text: 'Octopus GPU cluster', link: '/compute/octopus' },
-          ],
-        },
-      ],
-      '/data/': [
-        {
-          text: 'Data',
-          items: [
-            { text: 'Overview', link: '/data/' },
-            { text: 'Shared datasets', link: '/data/datasets' },
-            { text: 'Geodata catalogues', link: '/data/catalogues' },
-          ],
-        },
-      ],
-      '/software/': [{ text: 'Software', items: [{ text: 'Software', link: '/software/' }] }],
-      '/learning/': [{ text: 'Learning', items: [{ text: 'Learning resources', link: '/learning/' }] }],
-      '/news/': [{ text: 'News', items: [{ text: 'All news', link: '/news/' }, ...postSidebar('news')] }],
-      '/events/': [{ text: 'Events', items: [{ text: 'All events', link: '/events/' }, ...postSidebar('events')] }],
-    },
+    // One sidebar for the whole hub: a map of the site, with the posts of
+    // News and Events folded away unless you are reading one.
+    sidebar: [
+      {
+        text: 'Compute',
+        link: '/compute/',
+        items: [{ text: 'Octopus GPU cluster', link: '/compute/octopus' }],
+      },
+      {
+        text: 'Data',
+        link: '/data/',
+        items: [
+          { text: 'Geodata catalogues', link: '/data/catalogues' },
+          { text: 'Shared datasets', link: '/data/datasets' },
+        ],
+      },
+      { text: 'Software', link: '/software/' },
+      { text: 'Learning', link: '/learning/' },
+      { text: 'News', link: '/news/', collapsed: true, items: postSidebar('news') },
+      { text: 'Events', link: '/events/', collapsed: true, items: postSidebar('events') },
+      { text: 'Contribute', link: '/contribute' },
+    ],
 
     outline: { level: [2, 3] },
     search: { provider: 'local' },

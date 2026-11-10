@@ -28,10 +28,10 @@ Courses, tutorials and tools to get started with geocomputing. Some are free for
 
 ## Open-source programming languages
 
+- [Julia](https://julialang.org/): designed from the beginning for high performance.
 - [Python](https://www.python.org/): a programming language that lets you work more quickly and integrate your systems more effectively.
 - [R](https://www.r-project.org/): a free software environment for statistical computing and graphics.
 - [Octave](https://octave.org/): a free alternative to [MATLAB](https://www.mathworks.com/products/matlab.html), useful for students who used that language during their studies.
-- [Julia](https://julialang.org/): designed from the beginning for high performance.
 
 For a more detailed comparison, read [R vs. Python vs. Julia](https://towardsdatascience.com/r-vs-python-vs-julia-90456a2bcbab).
 

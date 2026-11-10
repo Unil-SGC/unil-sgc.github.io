@@ -6,8 +6,8 @@ hero:
   text: Data, software and dev hub
   tagline: Technical resources of the UNIL FGSE Geocomputing Centre, maintained by its community.
   image:
-    src: /logo.png
-    alt: Geocomputing Centre
+    src: /hero.webp
+    alt: Network of connected nodes over a marbled texture
   actions:
     - theme: brand
       text: Compute
@@ -29,7 +29,7 @@ features:
     link: /compute/
   - icon: 🗃️
     title: Data
-    details: Shared datasets on Curnagl and curated geodata catalogues for Earth and environmental sciences.
+    details: Curated geodata catalogues for Earth and environmental sciences, and shared datasets on Curnagl.
     link: /data/
   - icon: 🧰
     title: Software
