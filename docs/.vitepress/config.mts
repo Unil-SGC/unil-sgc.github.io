@@ -7,6 +7,8 @@ const ORG_URL = 'https://github.com/Unil-SGC'
 const CENTRE_URL = 'https://www.unil.ch/fgse/en/home/menuinst/recherche/geocomputing-centre.html'
 
 export default defineConfig({
+  // Pull-request previews are built under /previews/pr-N/ (set by the workflow).
+  base: process.env.SITE_BASE || '/',
   lang: 'en',
   title: 'Geocomputing Centre',
   description: 'Data, software and dev hub of the UNIL FGSE Geocomputing Centre',
