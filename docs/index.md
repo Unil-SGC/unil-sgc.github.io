@@ -51,7 +51,7 @@ features:
 
 ## About this hub
 
-Looking for the Centre's mission, its members or how to get in touch? You will find them on the [UNIL website](https://www.unil.ch/fgse/en/home/menuinst/recherche/geocomputing-centre.html). This hub is for the people who write code, run models and handle data: it points you to the compute resources, datasets, software and learning material for geocomputing at FGSE, and keeps the archive of past activities.
+Looking for the Centre's mission, its members or how to get in touch? You will find them on the [UNIL website](https://www.unil.ch/fgse/en/home/menuinst/recherche/geocomputing-centre.html). This hub is for developers and data users: it points you to the compute resources, datasets, software and learning material for geocomputing at FGSE, and keeps the archive of past activities.
 
 - [Geocomputing Centre on unil.ch](https://www.unil.ch/fgse/en/home/menuinst/recherche/geocomputing-centre.html)
 - [GitHub organisation](https://github.com/Unil-SGC)
