@@ -68,7 +68,3 @@ Then open `http://localhost:5173`. Pages reload as you save. `npm run docs:build
 - `docs/.vitepress/theme/`: small theme customisations (colours, post metadata, post lists).
 - `docs/public/`: static files copied as they are (images, favicons, redirects for old URLs).
 - `.github/workflows/deploy.yml`: build on pull requests, build and deploy on `main`.
-
-## Assets
-
-The Centre's logo and other assets are available in the [sgc-assets](https://github.com/Unil-SGC/sgc-assets) repository.

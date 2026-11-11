@@ -8,7 +8,7 @@ Where FGSE researchers can run their computations, and who helps them do it.
 
 ## Resources
 
-- [Octopus](/compute/octopus): the GPU cluster operated within FGSE. No scheduler, direct access to the nodes. The [how-to](/compute/octopus) covers access, etiquette, SSH and VS Code setup, and Python environments.
+- [Octopus](/compute/octopus): the GPU cluster operated within FGSE. No scheduler, direct access to the nodes. The [how-to](/compute/octopus) covers access, etiquette, SSH and VS Code setup, and programming environments.
 - **DCSR HPC clusters**: UNIL's central high-performance computing infrastructure, including a cluster for sensitive data, operated by the [Scientific Computing and Research Support Unit (DCSR)](https://www.unil.ch/ci/dcsr-en). The DCSR also provides virtual workstations and servers for research.
 - [CSCS](https://www.cscs.ch): the Swiss National Supercomputing Centre. National resources are available through allocation calls.
 
