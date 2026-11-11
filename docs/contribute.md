@@ -47,6 +47,12 @@ A highlighted note. Also available: info, warning, danger, details.
 
 See the [VitePress Markdown reference](https://vitepress.dev/guide/markdown) for the full list.
 
+A thin decorative banner under a page title is one line, with an optional dark-mode variant:
+
+```md
+<PageBanner light="/images/my-banner-light.webp" dark="/images/my-banner-dark.webp" alt="What the picture shows" />
+```
+
 Raw HTML is allowed too, with two rules: leave a blank line before and after an HTML block, and avoid deprecated tags such as `<center>`, which the renderer silently drops. For images, prefer the Markdown syntax `![description](/images/my-image.png)`.
 
 ## Preview locally

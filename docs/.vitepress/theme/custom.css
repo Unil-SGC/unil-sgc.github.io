@@ -91,6 +91,29 @@
   border-radius: 8px;
 }
 
+/* Thin page banner (<PageBanner />): fixed height, image cropped to fit */
+.page-banner {
+  margin: 0.5rem 0 1.5rem;
+}
+
+.page-banner img {
+  display: block;
+  width: 100%;
+  height: clamp(80px, 12vw, 150px);
+  object-fit: cover;
+  object-position: center 30%;
+  border-radius: 8px;
+}
+
+.page-banner .dark-only,
+.dark .page-banner .light-only {
+  display: none;
+}
+
+.dark .page-banner .dark-only {
+  display: block;
+}
+
 /* Program tables on event pages are wide: let them scroll instead of overflowing. */
 .vp-doc table {
   display: block;
