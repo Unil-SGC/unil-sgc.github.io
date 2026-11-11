@@ -1,0 +1,101 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    types: [opened, synchronize, reopened, closed]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+# All deployments push to gh-pages: run them one at a time.
+concurrency:
+  group: gh-pages-deploy
+  cancel-in-progress: false
+
+env:
+  PREVIEW_DIR: previews/pr-${{ github.event.number }}
+  # Previews are only deployed for pull requests from this repository (forks get no write token).
+  IS_PREVIEW: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository }}
+
+jobs:
+  build:
+    if: github.event.action != 'closed'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0 # full history for "last updated" stamps
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build site
+        run: npm run docs:build
+        env:
+          SITE_BASE: ${{ env.IS_PREVIEW == 'true' && format('/{0}/', env.PREVIEW_DIR) || '/' }}
+
+      - name: Deploy to gh-pages
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: docs/.vitepress/dist
+          clean: true
+          clean-exclude: |
+            previews
+          single-commit: true
+
+      - name: Deploy pull-request preview
+        if: env.IS_PREVIEW == 'true'
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: docs/.vitepress/dist
+          target-folder: ${{ env.PREVIEW_DIR }}
+          clean: true
+          single-commit: true
+
+      - name: Comment the preview link
+        if: env.IS_PREVIEW == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const url = `https://unil-sgc.github.io/${process.env.PREVIEW_DIR}/`
+            const marker = '<!-- pr-preview -->'
+            const body = `${marker}\n🔍 Preview of this pull request: ${url}\n\nUpdated on every push, removed when the pull request is closed. Allow a minute for GitHub Pages to publish.`
+            const { data: comments } = await github.rest.issues.listComments({ ...context.repo, issue_number: context.issue.number })
+            const existing = comments.find((c) => c.body && c.body.startsWith(marker))
+            if (existing) {
+              await github.rest.issues.updateComment({ ...context.repo, comment_id: existing.id, body })
+            } else {
+              await github.rest.issues.createComment({ ...context.repo, issue_number: context.issue.number, body })
+            }
+
+  remove-preview:
+    if: github.event_name == 'pull_request' && github.event.action == 'closed'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: gh-pages
+
+      - name: Remove the preview folder
+        run: |
+          if [ -d "$PREVIEW_DIR" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git rm -r -q "$PREVIEW_DIR"
+            git commit -m "Remove preview of PR #${{ github.event.number }}"
+            git push
+          else
+            echo "No preview folder to remove."
+          fi

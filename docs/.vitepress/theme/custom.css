@@ -1,0 +1,104 @@
+/* Brand colours: the blue used by the previous site, lightened in dark mode. */
+:root {
+  --vp-c-brand-1: #1565c0;
+  --vp-c-brand-2: #1a6fcf;
+  --vp-c-brand-3: #2a7de1;
+  --vp-c-brand-soft: rgba(21, 101, 192, 0.14);
+  --vp-home-hero-name-color: var(--vp-c-brand-1);
+}
+
+.dark {
+  --vp-c-brand-1: #6cb0f5;
+  --vp-c-brand-2: #4f9ceb;
+  --vp-c-brand-3: #3b8ae0;
+  --vp-c-brand-soft: rgba(108, 176, 245, 0.16);
+}
+
+/* Soft halo behind the home hero image */
+:root {
+  --vp-home-hero-image-background-image: linear-gradient(-45deg, #0b3d6e 30%, #1565c0 55%, #7fd3ff 85%);
+  --vp-home-hero-image-filter: blur(44px);
+}
+
+@media (min-width: 640px) {
+  :root {
+    --vp-home-hero-image-filter: blur(56px);
+  }
+}
+
+@media (min-width: 960px) {
+  :root {
+    --vp-home-hero-image-filter: blur(68px);
+  }
+}
+
+/* Post metadata line (news and events) */
+.post-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 0.75rem;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  color: var(--vp-c-text-2);
+}
+
+/* Post listing on the news and events index pages */
+.post-list {
+  list-style: none;
+  padding: 0;
+}
+
+.post-list li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.25rem 0.75rem;
+  padding: 0.6rem 0;
+  border-bottom: 1px solid var(--vp-c-divider);
+  margin: 0;
+}
+
+.post-list .post-date {
+  flex: 0 0 11rem;
+  color: var(--vp-c-text-2);
+  font-size: 0.9rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.post-list a {
+  font-weight: 500;
+}
+
+.post-tags {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.post-tag {
+  display: inline-block;
+  padding: 0 0.5rem;
+  border-radius: 999px;
+  background: var(--vp-c-default-soft);
+  color: var(--vp-c-text-2);
+  font-size: 0.75rem;
+  line-height: 1.6;
+}
+
+/* Images inside page content: slightly rounded corners */
+.vp-doc img {
+  border-radius: 8px;
+}
+
+/* Program tables on event pages are wide: let them scroll instead of overflowing. */
+.vp-doc table {
+  display: block;
+  overflow-x: auto;
+}
+
+@media (max-width: 640px) {
+  .post-list .post-date {
+    flex-basis: 100%;
+  }
+}

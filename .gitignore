@@ -1,5 +1,5 @@
-__site/
-__cache/
+node_modules/
+docs/.vitepress/dist/
+docs/.vitepress/cache/
 .DS_Store
 .vscode
-Manifest.toml
