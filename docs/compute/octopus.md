@@ -4,8 +4,6 @@ title: Octopus GPU cluster
 
 # Octopus GPU cluster
 
-<PageBanner light="/images/octopus-banner-light.webp" dark="/images/octopus-banner-dark.webp" alt="Status LEDs and network cables of a switch" />
-
 Octopus is a GPU cluster operated within the Faculty of Geosciences and Environment (FGSE). It has no job scheduler: users log in, pick a free node and run their jobs there, which makes it flexible but asks for some discipline. This page collects the basics to get started and to be a good neighbour.
 
 ::: info Questions and issues
