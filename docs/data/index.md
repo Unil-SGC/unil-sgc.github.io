@@ -1,11 +1,27 @@
 ---
 title: Data
+resources:
+  - icon: 🗺️
+    title: Geodata catalogues
+    badge: [Swiss and global]
+    details: A curated list of geodata sources, from Swiss 3D models to satellite imagery, climate reanalyses and natural hazards.
+    link: /data/catalogues
+  - icon: 📦
+    title: Shared datasets
+    badge: [FGSE, Curnagl]
+    details: Large reference datasets of interest to several research groups, hosted once on the Curnagl cluster.
+    link: /data/datasets
+  - icon: 💾
+    title: Long-term storage
+    badge: [UNIL, DCSR]
+    details: Archiving research data on UNIL's long-term storage, a DCSR service. General information now, the FGSE procedure to follow.
+    link: /data/lts
 ---
 
 # Data
 
+<PageBanner light="/images/data-banner-light.webp" dark="/images/data-banner-dark.webp" alt="Network of connected nodes over a marbled texture" />
+
 Finding and storing data for geocomputing at FGSE.
 
-- [Geodata catalogues](/data/catalogues): a curated list of geodata sources, from Swiss 3D models to remote sensing and natural hazards.
-- [Shared datasets](/data/datasets): large reference datasets of interest to several research groups, hosted on the Curnagl cluster.
-- **Storage and transfer**: research data storage, long-term storage and large file transfer are DCSR services. They are listed on the [Centre's resources page](https://www.unil.ch/fgse/en/home/menuinst/recherche/geocomputing-centre/ressources.html) on unil.ch.
+<ResourceCards />

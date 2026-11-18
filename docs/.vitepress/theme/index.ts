@@ -4,6 +4,7 @@ import DefaultTheme from 'vitepress/theme'
 import PostMeta from './PostMeta.vue'
 import PostList from './PostList.vue'
 import PageBanner from './PageBanner.vue'
+import ResourceCards from './ResourceCards.vue'
 import './custom.css'
 
 export default {
@@ -13,5 +14,6 @@ export default {
   enhanceApp({ app }) {
     app.component('PostList', PostList)
     app.component('PageBanner', PageBanner)
+    app.component('ResourceCards', ResourceCards)
   },
 } satisfies Theme
