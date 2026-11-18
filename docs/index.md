@@ -3,8 +3,8 @@ layout: home
 
 hero:
   name: Geocomputing Centre
-  text: Data, software and dev hub
-  tagline: Compute, data, software and learning resources for geocomputing at the Faculty of Geosciences and Environment, University of Lausanne.
+  text: Compute, data and software dev hub
+  tagline: Practical resources for geocomputing at the Faculty of Geosciences and Environment, University of Lausanne.
   image:
     src: /hero.webp
     alt: Network of connected nodes over a marbled texture

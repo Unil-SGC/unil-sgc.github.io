@@ -6,7 +6,7 @@ title: Compute
 
 <PageBanner light="/images/compute-banner-light.webp" dark="/images/compute-banner-dark.webp" alt="Status LEDs and network cables of a switch" />
 
-Where FGSE researchers can run their computations, and who helps them do it.
+GPU and HPC resources for FGSE researchers, and how to get support.
 
 ## Resources
 
