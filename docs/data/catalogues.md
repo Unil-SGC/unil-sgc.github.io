@@ -22,10 +22,14 @@ elevation:
     details: "Height models derived from the 1:25,000 national map, at 25 m and 200 m. Terrain analysis at larger scales, where swissALTI3D is more than needed."
     link: https://www.swisstopo.admin.ch/en/geodata/height/dhm25.html
 portals:
-  - title: UNIL Geocatalog
-    badge: [Switzerland, UNIL]
-    details: "Geospatial database for UNIL staff and students. Topographic maps, terrain models, aerial and satellite photographs, hydrographic and road networks, land cover and census data."
-    link: https://www.unil.ch/gis/home/menuinst/geodonnees.html
+  - title: UNIL géocatalogue
+    badge: [Global, UNIL]
+    details: "Search the geodata available at UNIL by region, theme or source. On the Centre informatique wiki, and may require a UNIL login."
+    link: https://wiki.unil.ch/ci/books/syst%C3%A8me-dinformation-g%C3%A9ographique-%28sig%29/page/geocatalogue
+  - title: UnilGIS geodata server
+    badge: [Global, UNIL]
+    details: "The server holding the UNIL geodata: topographic maps, elevation models, aerial and satellite imagery, networks, cadastre, land cover, population and climate models. Access for teaching and research at UNIL, on request."
+    link: https://wiki.unil.ch/ci/books/syst%C3%A8me-dinformation-g%C3%A9ographique-%28sig%29/page/les-geodonnees
   - title: map.geo.admin.ch
     badge: [Switzerland, Open]
     details: "The federal geoportal. Browse federal geodata on a map, see where data exists and download it directly."
