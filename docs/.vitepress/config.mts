@@ -11,7 +11,7 @@ export default defineConfig({
   base: process.env.SITE_BASE || '/',
   lang: 'en',
   title: 'Geocomputing Centre',
-  description: 'Data, software and dev hub of the UNIL FGSE Geocomputing Centre',
+  description: 'Compute, data and software dev hub of the UNIL FGSE Geocomputing Centre',
   cleanUrls: true,
   lastUpdated: true,
   sitemap: { hostname: SITE_URL },
@@ -23,7 +23,7 @@ export default defineConfig({
     ['meta', { name: 'keywords', content: 'Geocomputing, GPU, Earth sciences, Supercomputing, Geodata' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:title', content: 'Geocomputing Centre hub' }],
-    ['meta', { property: 'og:description', content: 'Data, software and dev hub of the UNIL FGSE Geocomputing Centre' }],
+    ['meta', { property: 'og:description', content: 'Compute, data and software dev hub of the UNIL FGSE Geocomputing Centre' }],
   ],
 
   themeConfig: {

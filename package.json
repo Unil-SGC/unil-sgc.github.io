@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "type": "module",
-  "description": "Geocomputing Centre data, software and dev hub (VitePress site)",
+  "description": "Geocomputing Centre compute, data and software dev hub (VitePress site)",
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",

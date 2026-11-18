@@ -1,6 +1,6 @@
 # unil-sgc.github.io
 
-Data, software and dev hub of the UNIL FGSE [Geocomputing Centre](https://www.unil.ch/fgse/en/home/menuinst/recherche/geocomputing-centre.html).
+Compute, data and software dev hub of the UNIL FGSE [Geocomputing Centre](https://www.unil.ch/fgse/en/home/menuinst/recherche/geocomputing-centre.html).
 
 👉 **https://unil-sgc.github.io/**
 
