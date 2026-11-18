@@ -33,6 +33,21 @@ Content in Markdown ...
 
 The listing pages and the sidebar are generated from these files, so there is nothing else to update. Images go in `docs/public/images/` and are referenced as `/images/my-image.png`.
 
+## Update the shared datasets list
+
+The [Shared datasets](/data/datasets) page is generated from the README of the `FGSE` folder on the `/reference` partition of Curnagl. That file is the source of truth: edit it on the cluster, not on the website.
+
+1. On Curnagl, edit `/reference/FGSE/README_FGSE.md`. The page reads its Markdown table by column name: `Folder Name` becomes the title, `Description` the text and `Group` the badge. The `Contact` column stays on the cluster and is never published.
+2. From a machine that can `ssh` to Curnagl, with the repository checked out on `main`, run:
+
+   ```sh
+   scripts/sync-reference-readme.sh                # or: scripts/sync-reference-readme.sh user@curnagl
+   ```
+
+   It copies the README to `reference/README_FGSE.md`, then commits and pushes if it changed. The site redeploys within a few minutes. There is nothing else to edit.
+
+There is no automatic sync: run the script whenever the README changes.
+
 ## Useful Markdown extras
 
 VitePress supports GitHub-flavoured Markdown plus a few extras:
