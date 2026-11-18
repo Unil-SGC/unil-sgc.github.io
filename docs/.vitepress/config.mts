@@ -61,6 +61,7 @@ export default defineConfig({
         items: [
           { text: 'Geodata catalogues', link: '/data/catalogues' },
           { text: 'Shared datasets', link: '/data/datasets' },
+          { text: 'Long-term storage', link: '/data/lts' },
         ],
       },
       { text: 'Software', link: '/software/' },

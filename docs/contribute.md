@@ -53,6 +53,24 @@ A thin decorative banner under a page title is one line, with an optional dark-m
 <PageBanner light="/images/my-banner-light.webp" dark="/images/my-banner-dark.webp" alt="What the picture shows" />
 ```
 
+A grid of cards, as on the Compute, Data and Software pages, is a list in the front matter plus one line in the page. `icon`, `badge` and `link` are optional:
+
+```md
+---
+title: Compute
+resources:
+  - icon: 🐙
+    title: Octopus
+    badge: [FGSE, GPU]
+    details: The faculty's own GPU cluster.
+    link: /compute/octopus
+---
+
+<ResourceCards />
+```
+
+A page with several grids names its lists and passes each one explicitly, as in `<ResourceCards :items="$frontmatter.repos" />`.
+
 Raw HTML is allowed too, with two rules: leave a blank line before and after an HTML block, and avoid deprecated tags such as `<center>`, which the renderer silently drops. For images, prefer the Markdown syntax `![description](/images/my-image.png)`.
 
 ## Preview locally
@@ -71,6 +89,7 @@ Then open `http://localhost:5173`. Pages reload as you save. `npm run docs:build
 ## Site structure
 
 - `docs/.vitepress/config.mts`: navigation, sidebar and site options.
-- `docs/.vitepress/theme/`: small theme customisations (colours, post metadata, post lists).
+- `docs/.vitepress/theme/`: small theme customisations (colours, post metadata, post lists, resource cards).
 - `docs/public/`: static files copied as they are (images, favicons, redirects for old URLs).
+- `reference/README_FGSE.md`: copy of the datasets README on Curnagl. The Shared datasets page is generated from its table; refresh it with `scripts/sync-reference-readme.sh`.
 - `.github/workflows/deploy.yml`: build on pull requests, build and deploy on `main`.

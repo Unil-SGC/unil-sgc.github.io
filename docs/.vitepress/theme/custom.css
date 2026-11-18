@@ -125,3 +125,151 @@
     flex-basis: 100%;
   }
 }
+
+/* Card grid (<ResourceCards />): one card per entry of a front matter list */
+.resource-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+  margin: 1.25rem 0 1.75rem;
+}
+
+/* Exactly three cards: one row of three rather than two plus one */
+@media (min-width: 720px) {
+  .resource-cards:has(> :nth-child(3):last-child) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.vp-doc .resource-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 18px 20px;
+  border: 1px solid var(--vp-c-bg-soft);
+  border-radius: 12px;
+  background-color: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-1);
+  font-weight: inherit;
+  text-decoration: none;
+  transition: border-color 0.25s, background-color 0.25s;
+}
+
+.vp-doc a.resource-card:hover {
+  border-color: var(--vp-c-brand-1);
+  color: var(--vp-c-text-1);
+  text-decoration: none;
+}
+
+.rc-head {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.rc-icon {
+  flex: none;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.rc-title {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  transition: color 0.25s;
+}
+
+.vp-doc a.resource-card:hover .rc-title {
+  color: var(--vp-c-brand-1);
+}
+
+.rc-last-word {
+  white-space: nowrap;
+}
+
+.rc-external {
+  display: inline-block;
+  margin-left: 5px;
+  vertical-align: -1px;
+  color: var(--vp-c-text-3);
+}
+
+.rc-details {
+  font-size: 14px;
+  line-height: 22px;
+  color: var(--vp-c-text-2);
+}
+
+.rc-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: auto;
+  padding-top: 4px;
+}
+
+.rc-badge {
+  display: inline-block;
+  padding: 0 0.55rem;
+  border-radius: 999px;
+  background: var(--vp-c-default-soft);
+  color: var(--vp-c-text-2);
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1.7;
+}
+
+/* Compact variant (<ResourceCards compact />): one row per entry, for long lists */
+.resource-cards.compact {
+  display: block;
+  margin: 0.25rem 0 1.5rem;
+}
+
+.vp-doc .resource-cards.compact .resource-card {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-areas:
+    'head badges'
+    'details details';
+  align-items: center;
+  column-gap: 12px;
+  row-gap: 2px;
+  padding: 10px 0;
+  border: 0;
+  border-radius: 0;
+  background: none;
+}
+
+.resource-cards.compact .resource-card + .resource-card {
+  border-top: 1px solid var(--vp-c-divider);
+}
+
+.resource-cards.compact .rc-head {
+  grid-area: head;
+}
+
+.resource-cards.compact .rc-title {
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.resource-cards.compact .rc-details {
+  grid-area: details;
+}
+
+.resource-cards.compact .rc-badges {
+  grid-area: badges;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+@media (max-width: 640px) {
+  .vp-doc .resource-cards.compact .resource-card {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      'head'
+      'badges'
+      'details';
+  }
+}

@@ -9,7 +9,7 @@ hero:
     src: /hero.webp
     alt: Network of connected nodes over a marbled texture
   actions:
-    - theme: brand
+    - theme: alt
       text: Compute
       link: /compute/
     - theme: alt
@@ -18,7 +18,7 @@ hero:
     - theme: alt
       text: Software
       link: /software/
-    - theme: alt
+    - theme: brand
       text: The Centre on unil.ch
       link: https://www.unil.ch/fgse/en/home/menuinst/recherche/geocomputing-centre.html
 
