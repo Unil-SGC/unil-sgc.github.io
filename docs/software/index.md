@@ -67,7 +67,7 @@ blocks:
 
 # Software
 
-<PageBanner light="/images/software-banner-light.webp" dark="/images/software-banner-dark.webp" alt="A Julia GPU kernel written with ParallelStencil" />
+<PageBanner light="/images/software-banner-light.png" dark="/images/software-banner-dark.png" alt="A scalar field on a computational grid, with a five-point stencil outlined" />
 
 A succinct description and links to useful code repositories related to the activities of the Geocomputing Centre.
 
