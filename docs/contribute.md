@@ -91,4 +91,5 @@ Then open `http://localhost:5173`. Pages reload as you save. `npm run docs:build
 - `docs/.vitepress/config.mts`: navigation, sidebar and site options.
 - `docs/.vitepress/theme/`: small theme customisations (colours, post metadata, post lists, resource cards).
 - `docs/public/`: static files copied as they are (images, favicons, redirects for old URLs).
+- `reference/README_FGSE.md`: copy of the datasets README on Curnagl. The Shared datasets page is generated from its table; refresh it with `scripts/sync-reference-readme.sh`.
 - `.github/workflows/deploy.yml`: build on pull requests, build and deploy on `main`.
