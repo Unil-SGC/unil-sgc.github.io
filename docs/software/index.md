@@ -29,6 +29,23 @@ repos:
     badge: [Assets]
     details: Logo and other assets of the Centre.
     link: https://github.com/Unil-SGC/sgc-assets
+orgs:
+  - title: JuliaGPU
+    badge: [Julia, GPU]
+    details: The Julia GPU ecosystem, with CUDA.jl, AMDGPU.jl, Metal.jl, oneAPI.jl and KernelAbstractions.jl, their documentation and tutorials.
+    link: https://juliagpu.org
+  - title: GPU4GEO
+    badge: [PASC project]
+    details: The PASC project on GPU-based multi-physics solvers for geosciences in Julia.
+    link: https://gpu4geo.org
+  - title: PTsolvers
+    badge: [GitHub]
+    details: Organisation of the pseudo-transient solvers, with applications and tutorials built on ParallelStencil.
+    link: https://github.com/PTsolvers
+  - title: JuliaGeodynamics
+    badge: [GitHub]
+    details: Organisation of Julia packages for geodynamics, such as GeoParams.jl and GeophysicalModelGenerator.jl.
+    link: https://github.com/JuliaGeodynamics
 blocks:
   - title: ParallelStencil.jl
     badge: [Julia, GPU]
@@ -50,6 +67,8 @@ blocks:
 
 # Software
 
+<PageBanner light="/images/software-banner-light.webp" dark="/images/software-banner-dark.webp" alt="A Julia GPU kernel written with ParallelStencil" />
+
 A succinct description and links to useful code repositories related to the activities of the Geocomputing Centre.
 
 ## Centre repositories
@@ -60,6 +79,10 @@ Tools, templates and material shared by the community are hosted on the [Unil-SG
 
 ## Julia GPU development
 
-Ongoing development related to the [GPU4GEO](https://gpu4geo.org) PASC project is hosted on the [PTsolvers](https://github.com/PTsolvers) and [JuliaGeodynamics](https://github.com/JuliaGeodynamics) organisations. Its building blocks:
+Where the GPU work of the Centre and its partners lives, from the Julia GPU ecosystem to the GPU4GEO project and its organisations.
 
-<ResourceCards :items="$frontmatter.blocks" />
+<ResourceCards :items="$frontmatter.orgs" />
+
+Building blocks used across these projects:
+
+<ResourceCards compact :items="$frontmatter.blocks" />
