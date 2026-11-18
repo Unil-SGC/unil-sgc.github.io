@@ -30,12 +30,12 @@ export default {
     if (rows.length < 3) return []
     const header = rows[0].map((h) => h.toLowerCase())
     const col = (name: string) => header.findIndex((h) => h.includes(name))
-    const iFolder = col('folder'), iDesc = col('description'), iContact = col('contact')
+    // The Contact column is deliberately not published: the site is public
+    // and the e-mail addresses stay on the cluster. An optional Group column
+    // (for example "DAWN" or "Beucler group") is shown as a badge.
+    const iFolder = col('folder'), iDesc = col('description'), iGroup = col('group')
     return rows.slice(2).map((cells) => {
-      const contact = iContact >= 0 ? cells[iContact] ?? '' : ''
-      // "name@unil.ch (group)": only the group is published, the site is
-      // public and the e-mail addresses stay on the cluster.
-      const group = contact.match(/\(([^)]+)\)/)?.[1] ?? ''
+      const group = iGroup >= 0 ? (cells[iGroup] ?? '').trim() : ''
       return {
         title: (cells[iFolder] ?? '').replace(/`/g, ''),
         details: cells[iDesc] ?? '',
