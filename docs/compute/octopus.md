@@ -20,15 +20,20 @@ In its current configuration the cluster has these node types:
 
 | Nodes | Users | GPUs | GPU memory | CPUs | CPU cores | RAM |
 |-------|-------|------|------------|------|-----------|-----|
-| `node01`–`node26` | All | 4× Nvidia Titan X | 12 GB | 2× Intel Xeon E5 v3 | 6-core | 128 GB |
-| `node27`–`node31` | ICE | 2× Nvidia RTX 4090 | 24 GB | 2× Intel Xeon E5 v3 | 6-core | 128 GB |
-| `node32` | ICE + ∂AWN | 2× Nvidia RTX 6000 Pro | 96 GB | 2× Intel Xeon E5 v3 | 6-core | 128 GB |
+| `node01`–`node25` | All | 4× Nvidia Titan X | 12 GB | 2× Intel Xeon E5 v3 | 6-core | 128 GB |
+| `node26`–`node30` | ICE | 2× Nvidia RTX 4090 | 24 GB | 2× Intel Xeon E5 v3 | 6-core | 128 GB |
+| `node31` | ICE + GRIMPACT | 2× Nvidia RTX 6000 Pro | 96 GB | 2× Intel Xeon E5 v3 | 6-core | 128 GB |
+| `node32` | ∂AWN | 1× Nvidia RTX 6000 Pro | 96 GB | 2× Intel Xeon E5 v3 | 6-core | 128 GB |
 | `node34` **Fat** | All | 1× Nvidia V100 PCIe | 16 GB | 2× Intel Xeon E5 v3 | 6-core | 1 TB |
 | `node40` **DGX** | All | 8× Nvidia V100 SXM2 | 32 GB | 2× Intel Xeon Silver 4112 | 8-core | 756 GB |
 | `node55` **CPU** | All | — | — | 2× Intel Xeon E5 v4 | 16-core | 512 GB |
 
 ::: warning Dedicated nodes
-`node27`–`node31` (RTX 4090) are dedicated to the ICE group (Prof. Jouvet). `node32` (RTX 6000 Pro) is shared by two groups: **GPU 0 is for the ICE group, GPU 1 for the ∂AWN group (Prof. Beucler)**. Use the other group's GPU only when it is free and after asking them on Discord.
+`node26`–`node30` (RTX 4090) are dedicated to the ICE group (Prof. Jouvet). Each RTX 6000 Pro GPU has an owner: on `node31`, **GPU 0 is for the ICE group and GPU 1 for the GRIMPACT project**; `node32` has a single GPU (GPU 0) for the **∂AWN group (Prof. Beucler)**. Use a GPU that isn't yours only when it is free and after asking on Discord.
+:::
+
+::: tip Changed on 19 November 2026
+`node26` now has two RTX 4090s instead of four Titan X, `node31` has the RTX 6000 Pro GPUs instead of RTX 4090s, and `node32` keeps one GPU: jobs that used `CUDA_VISIBLE_DEVICES=1` there must now use `0`.
 :::
 
 ## First login
@@ -195,13 +200,13 @@ Another way to manage Python environments is `micromamba`, keeping the environme
 
 ## Containers (Apptainer)
 
-[Apptainer](https://apptainer.org) runs container images on `node27`–`node32` as your own user: nothing to request, and what you write belongs to you. Docker is not available on the cluster. Your home, `/work`, `/work2`, `/work3` and `/tmp` are visible inside a container.
+[Apptainer](https://apptainer.org) runs container images on `node26`–`node32` as your own user: nothing to request, and what you write belongs to you. Docker is not available on the cluster. Your home, `/work`, `/work2`, `/work3` and `/tmp` are visible inside a container.
 
 Shared images are in `/soft/containers`:
 
 | Image | Contents | GPUs it covers |
 |-------|----------|----------------|
-| `tf-25.02-tf2-py3.sif` | NVIDIA NGC TensorFlow 25.02: TensorFlow 2.17, CUDA 12.8, Python 3.12 | RTX 4090 (`node27`–`node31`) and RTX 6000 Pro (`node32`). Not Titan X or V100: keep conda there. |
+| `tf-25.02-tf2-py3.sif` | NVIDIA NGC TensorFlow 25.02: TensorFlow 2.17, CUDA 12.8, Python 3.12 | RTX 4090 (`node26`–`node30`) and RTX 6000 Pro (`node31`, `node32`). Not Titan X or V100: keep conda there. |
 
 Run a command inside an image with `--nv` for GPU access, and **always pick a GPU**: the container sees every GPU of the node, and TensorFlow would take memory on all of them.
 
@@ -218,7 +223,7 @@ Check `nvidia-smi` first and run one job per GPU. Write outputs under `/work*/<u
 `/soft/containers/igm-ngc` wraps the TensorFlow image for the [Instructed Glacier Model](https://github.com/instructed-glacier-model/igm). It installs your IGM clone into `~/.local-ngc` once (your conda environments are not touched), then runs any command inside the image. It refuses to start without `CUDA_VISIBLE_DEVICES`.
 
 ```sh
-ssh node32
+ssh node31
 /soft/containers/igm-ngc install /work/$USER/igm       # once, about a minute; again if IGM's dependencies change
 CUDA_VISIBLE_DEVICES=0 /soft/containers/igm-ngc info   # TensorFlow, CUDA and the GPU it sees
 ```
@@ -230,18 +235,18 @@ PROJECT=/work/$USER/my-project   # folder with experiment/ and your inputs
 NAME=run01                       # tmux session and output folder
 EXP=params                       # experiment/params.yaml
 GPU=0                            # a free GPU on that node (nvidia-smi index)
-ssh -n node32 "tmux new-session -d -s $NAME 'cd $PROJECT && mkdir -p outputs && CUDA_VISIBLE_DEVICES=$GPU TF_CPP_MIN_LOG_LEVEL=3 PYTHONUNBUFFERED=1 /soft/containers/igm-ngc igm_run +experiment=$EXP hydra.run.dir=outputs/$NAME > outputs/$NAME.log 2>&1'"
+ssh -n node31 "tmux new-session -d -s $NAME 'cd $PROJECT && mkdir -p outputs && CUDA_VISIBLE_DEVICES=$GPU TF_CPP_MIN_LOG_LEVEL=3 PYTHONUNBUFFERED=1 /soft/containers/igm-ngc igm_run +experiment=$EXP hydra.run.dir=outputs/$NAME > outputs/$NAME.log 2>&1'"
 ```
 
-Hydra overrides go after `+experiment=$EXP`. On a 4090 node, replace `node32`. Then:
+Hydra overrides go after `+experiment=$EXP`. On a 4090 node, replace `node31`. Then:
 
 ```sh
 tail -f $PROJECT/outputs/$NAME.log       # follow
-ssh node32 tmux ls                       # what is running
-ssh node32 tmux kill-session -t $NAME    # stop
+ssh node31 tmux ls                       # what is running
+ssh node31 tmux kill-session -t $NAME    # stop
 ```
 
-::: warning node32
+::: warning RTX 6000 Pro nodes
 Avoid adaptive patching combined with in-loop emulator retraining: each patch shape triggers a new compile, which has hung a run for hours. With 96 GB, large grids run unpatched.
 :::
 
@@ -250,7 +255,7 @@ Avoid adaptive patching combined with in-loop emulator retraining: each patch sh
 | `igm-ngc: set CUDA_VISIBLE_DEVICES…` | Put `CUDA_VISIBLE_DEVICES=<gpu>` in front of the command. |
 | `WARNING: GPU N already has … MiB in use` | Someone is on that GPU; choose a free one from `nvidia-smi`. |
 | `igm not installed` or `igm_run: not found` | Run `igm-ngc install` on that account. |
-| `apptainer is not installed on nodeNN` | Apptainer is on `node27`–`node32` only. |
+| `apptainer is not installed on nodeNN` | Apptainer is on `node26`–`node32` only. |
 | `NetCDF: Unknown file format` after a killed run | The file was truncated; delete it before relaunching. |
 
 ## Software and modules
